@@ -5,7 +5,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{68a34935-bad7-4224-890f-4b15d20598d7}</em:id>
-    <em:version>0.8.6</em:version>
+    <em:version>0.9</em:version>
 
     <!-- Target Application this extension can install into,
          with minimum and maximum supported versions. -->
@@ -19,7 +19,7 @@
 
     <!-- Front End MetaData -->
     <em:name>PixelZilla</em:name>
-    <em:description>A theme based on pixel art</em:description>
+    <em:description>A theme based on pixel art.</em:description>
     <em:creator>Roman Joost</em:creator>
 		<em:contributor>Stephanie Warren, Victor Nilsson</em:contributor>
     <em:homepageURL>http://www.romanofski.de</em:homepageURL>
