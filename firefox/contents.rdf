@@ -23,6 +23,7 @@
         <li resource="urn:mozilla:skin:pixelzilla:global"/>
         <li resource="urn:mozilla:skin:pixelzilla:browser"/>
         <li resource="urn:mozilla:skin:pixelzilla:mozapps"/>
+				<li resource="urn:mozilla:skin:pixelzilla:help"/>
       </Seq>
     </chrome:packages>
   </Description>
@@ -31,6 +32,7 @@
   <Description chrome:skinVersion="1.5" about="urn:mozilla:skin:pixelzilla:global"/>
   <Description chrome:skinVersion="1.5" about="urn:mozilla:skin:pixelzilla:browser"/>
   <Description chrome:skinVersion="1.5" about="urn:mozilla:skin:pixelzilla:mozapps"/>
+	<Description chrome:skinVersion="1.5" about="urn:mozilla:skin:pixelzilla:help"/>
 
 </RDF>
 

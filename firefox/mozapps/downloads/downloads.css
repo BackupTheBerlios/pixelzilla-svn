@@ -42,8 +42,7 @@
 }
 
 #cleanUpButton[disabled="true"] {
-  list-style-image: url("chrome://mozapps/skin/downloads/downloadCleanupDisabled.png");
-	-moz-image-region: rect(20px, 20px, 40px, 0px);
+	-moz-image-region: rect(0px, 40px, 20px, 20px);
 }
 
 #commandBarSeparator {

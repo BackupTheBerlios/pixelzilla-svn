@@ -1,3 +1,16 @@
+2004-07-23	Victor Nilsson <vervex@home.se>
+
+	* firefox/help: added help files
+
+	* firefox/global/plugins.css: changed bg to white (from almost), 
+	  though it doesn't make any sense
+
+	* firefox/mozapps/downloads/downloads.css: small fix
+	* firefox/update.rdf: moved to root
+	* firefox/contents.rdf
+	* firefox/oldclassic: deleted
+
+
 2004-07-22	Victor Nilsson <vervex@home.se>
 
 	* firefox/classic/skin/classic/mozapps/downloads/downloadOptions.png 
