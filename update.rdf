@@ -8,6 +8,7 @@
       <Seq>
 				<li resource="urn:mozilla:extension:{68a34935-bad7-4224-890f-4b15d20598d7}:0.9.1"/>
         <li resource="urn:mozilla:extension:{68a34935-bad7-4224-890f-4b15d20598d7}:0.9.2"/>
+				<li resource="urn:mozilla:extension:{68a34935-bad7-4224-890f-4b15d20598d7}:0.9.4"/>
       </Seq>
     </em:updates>
   </RDF:Description>
@@ -36,8 +37,20 @@
     </em:targetApplication>
   </RDF:Description>
 
+	<RDF:Description about="urn:mozilla:extension:{68a34935-bad7-4224-890f-4b15d20598d7}">
+    <em:version>0.9.4</em:version>
+		<em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>0.9</em:minVersion>
+        <em:maxVersion>0.10</em:maxVersion>
+        <em:updateLink>http://download.berlios.de/pixelzilla/pixelzilla-firefox-0.9.4.jar</em:updateLink>
+      </Description>
+    </em:targetApplication>
+  </RDF:Description>
+
 	<!-- For Firefox 0.9 compatibility -->
-	<em:version>0.9.2</em:version>
-  <em:updateLink>http://download.berlios.de/pixelzilla/pixelzilla-firefox-0.9.2.jar</em:updateLink>
+	<em:version>0.9.4</em:version>
+  <em:updateLink>http://download.berlios.de/pixelzilla/pixelzilla-firefox-0.9.4.jar</em:updateLink>
 
 </RDF:RDF>
