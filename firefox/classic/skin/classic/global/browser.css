@@ -35,3 +35,28 @@ tab[busy] > .tab-icon {
 tab[selected="true"] {
   font-weight: bold;
 }
+
+browsermessage {
+  background-color: #fafac6;
+  color: #000000;
+  padding: 3px;
+}
+
+browsermessage[type="top"] {
+  border-bottom: 1px dotted #000;
+}
+
+browsermessage[type="bottom"] {
+  border-top: 1px dotted #000;
+}
+
+.messageImage {
+}
+
+.messageText {
+  margin-left: 5px;
+}
+
+.messageButton {
+  margin: 0px 5px 0px 5px;
+}
