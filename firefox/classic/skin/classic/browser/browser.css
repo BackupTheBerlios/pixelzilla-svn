@@ -202,7 +202,6 @@ menuitem.bookmark-item {
   padding-left: 8px;
 }
 
-
 toolbarbutton:not([disabled="true"]):hover,
 menubutton:not([disabled="true"]):hover,
 toolbarbutton:not([disabled="true"]):hover:active,
@@ -224,7 +223,6 @@ toolbar[mode="icons"] .toolbarbutton-text {
   display: none;
 }
 
-toolbar[mode="text"] .toolbarbutton-menubutton-dropmarker,
 toolbar[mode="text"] .toolbarbutton-icon {
   display: none;
 }
@@ -232,6 +230,41 @@ toolbar[mode="text"] .toolbarbutton-icon {
 toolbar[mode="text"] .toolbarbutton-text {
   padding: 0 !important;
   margin: 3px 5px !important;
+}
+
+/* workaround */
+toolbar[mode="text"] toolbarbutton[type="menu"] .toolbarbutton-text {
+  margin: 2px 5px 4px 5px !important;
+}
+
+/* Smaller padding on toolbar buttons in text mode */
+
+toolbar[mode="text"] .toolbarbutton-1,
+toolbar[mode="text"] .toolbarbutton-menubutton-button  {
+  padding: 3px;
+}
+
+toolbar[mode="text"] .toolbarbutton-1:hover:active,
+toolbar[mode="text"] .toolbarbutton-1[open="true"],
+toolbar[mode="text"] .toolbarbutton-menubutton-button:hover:active,
+toolbar[mode="text"] .toolbarbutton-menubutton-button[open="true"] {
+  padding: 4px 2px 2px 4px;
+}
+
+toolbar[mode="text"] .toolbarbutton-1[disabled="true"],
+toolbar[mode="text"] .toolbarbutton-1[disabled="true"]:hover,
+toolbar[mode="text"] .toolbarbutton-1[disabled="true"]:hover:active,
+toolbar[mode="text"] .toolbarbutton-1[disabled="true"][open="true"],
+toolbar[mode="text"] .toolbarbutton-menubutton-button[disabled="true"],
+toolbar[mode="text"] .toolbarbutton-menubutton-button[disabled="true"]:hover,
+toolbar[mode="text"] .toolbarbutton-menubutton-button[disabled="true"]:hover:active,
+toolbar[mode="text"] .toolbarbutton-menubutton-button[disabled="true"][open="true"] {
+  padding: 3px;
+}
+
+toolbar[mode="text"] .toolbarbutton-1[checked="true"],
+toolbar[mode="text"] .toolbarbutton-menubutton-button[checked="true"] {
+  padding: 4px 2px 2px 4px !important;
 }
 
 #back-button {
@@ -514,6 +547,7 @@ statusbarpanel#statusbar-display {
   list-style-image: url("chrome://browser/skin/search-arrow.gif");
 }
 
+/* for 0.8-0.9 back compatibility */
 #__PhoenixFindInPage {
   list-style-image: url("chrome://browser/skin/search-bar.png");
 }
@@ -574,6 +608,10 @@ statusbarpanel#statusbar-display {
 
 /* ::::: go button ::::: */
 
+/* In Firefox 0.9.1+ the go button became a "toolbarbutton" (instead of a 
+   "button"), which makes most of this code unnecessary, but it's still there
+	 for back compatibility */
+
 #go-button,
 #go-container {
   -moz-appearance: none;
@@ -622,6 +660,10 @@ statusbarpanel#statusbar-display {
 
 #go-button > .button-box {
   border: none;
+}
+
+#go-button > .toolbarbutton-text {
+  display: -moz-box !important;
 }
 
 #sidebar {
@@ -750,7 +792,7 @@ toolbar[mode="text"] > #window-controls > toolbarbutton > .toolbarbutton-text {
 }
 
 #FindToolbar {
-  border-bottom: 1px solid ThreeDHighlight;
+  border: none;
   border-top: 1px solid ThreeDShadow;
 }
 
