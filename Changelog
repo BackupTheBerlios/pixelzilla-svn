@@ -1,3 +1,18 @@
+2004-08-14	Roman Joost	<roman@bromeco.de>
+
+	* firefox/install.rdf: new version
+	
+	* src/20x20-icons.xcf
+	* firefox/browser/toolbar.png: new bookmarks icon, which fixes
+	  bug #002223
+	
+	* firefox/browser/about.png
+	* firefox/browser/aboutDialog.css: removed because it's
+	  deprecated and not anymore in use
+	
+	* firefox/preview.png: fixed Name to Stephanie Warrick
+	
+
 2004-08-08	Roman Joost	<roman@bromeco.de>
 
 	* firefox/global/global.css
