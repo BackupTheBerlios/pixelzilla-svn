@@ -46,8 +46,10 @@ treechildren::-moz-tree-image(FilenameColumn, directory) {
 }
 
 treechildren::-moz-tree-image(FilenameColumn, file) {
+    width: 16px;
+/*  -moz-image-region: rect(16px, 16px, 32px, 0px);
   list-style-image: url("chrome://global/skin/icons/folder-item.png");
-  -moz-image-region: rect(16px, 16px, 32px, 0px);
+*/
 }
 
 /* ::::: focus rules ::::: */

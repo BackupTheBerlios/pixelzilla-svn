@@ -1,0 +1,25 @@
+2004-07-21	Roman Joost <roman@bromeco.de>
+
+
+	* firefox/classic/skin/classic/global/filepicker.css: removed icon
+	  for files
+
+2004-07-21	Roman Joost <roman@bromeco.de>
+
+	* Changelog: added new Changelog for tracking commits
+	
+	* firefox/classic/skin/classic/global/browser.css: fixed
+	  not appearing tab-loading.gif
+	  
+	* firefox/classic/skin/classic/global/plugins.css: changed to
+	  nearly white background
+	  
+	* firefox/classic/skin/classic/browser/page-themes.png: new icon
+	
+	* firefox/classic/skin/classic/browser/toolbar.png: slight
+	  modifications to 'new tab icon' based on the idea from
+	  Thomas <office@agila.info>
+	  
+	* firefox/classic/skin/classic/browser/browser.css
+	* src/tab-new.xcf
+	* src/page-themes.xcf: source files includes fixes
