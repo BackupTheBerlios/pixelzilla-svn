@@ -581,13 +581,13 @@ statusbarpanel#statusbar-display {
 }
 
 #security-button[level="high"], #security-button[level="low"] {
-  list-style-image: url("chrome://navigator/skin/lock-secure.png");
+  list-style-image: url("chrome://browser/skin/lock-secure.png");
   display: -moz-box;
 	padding: 0px 3px 0px 3px;
 }
 
 #security-button[level="broken"] {
-  list-style-image: url("chrome://navigator/skin/lock-broken.png");
+  list-style-image: url("chrome://browser/skin/lock-broken.png");
   display: -moz-box;
 	padding: 0px 3px 0px 3px;
 }
@@ -681,22 +681,6 @@ toolbar[mode="text"] > #window-controls > toolbarbutton > .toolbarbutton-text {
 
 #sidebar-throbber[loading="true"] {
   list-style-image: url(chrome://global/skin/icons/loading.gif);
-}
-
-#urlbar[level="high"] > .autocomplete-textbox-container,
-#urlbar[level="low"] > .autocomplete-textbox-container,
-#urlbar[level="broken"] > .autocomplete-textbox-container {
-  background-color: #F5F6BE;
-}
-
-#urlbar[level="high"] > .autocomplete-textbox-container > .info-icon {
-  list-style-image: url("chrome://browser/skin/lock-secure.png");
-}
-#urlbar[level="low"] > .autocomplete-textbox-container > .info-icon {
-  list-style-image: url("chrome://browser/skin/lock-secure.png");
-}
-#urlbar[level="broken"] > .autocomplete-textbox-container > .info-icon {
-  list-style-image: url("chrome://browser/skin/lock-broken.png");
 }
 
 #FindToolbar {
