@@ -5,8 +5,8 @@
 #clientBox {
   background-image: url("chrome://browser/skin/about.png");
   background-repeat: no-repeat;
-  padding-top: 203px;
-  background-color: #FFF;
+  padding-top: 240px;
+  background-color: #fafac6;
 }
 
 #brandName {
@@ -23,11 +23,12 @@
   background-color: #FFF;
   padding: 1px 0px 1px 2px;
   -moz-appearance: none;
-  border: none;
+	border-width: 1px;
 }
 
 #copyright {
-  color: blue;
+  border-top: solid 1px #eae9be;
+	padding-top: 6px;
   text-decoration: underline;
   margin: 0px 0px 3px 16px;
 }
@@ -42,8 +43,13 @@
 }
 
 #version {
+  margin-left: 15px;
+  margin-bottom: 8px;
+  font-size: 10px;
   font-weight: bold;
-  color: #909090;
+  padding-left: 10px;
+  background: url("chrome://browser/skin/version.gif") no-repeat left center;
+  color: #888;
   margin: 1em 0px 10px 17px;
 }
 

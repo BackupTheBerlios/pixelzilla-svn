@@ -102,7 +102,7 @@ toolbarpaletteitem[place="toolbar"] > toolbarspacer {
 }
 
 .toolbarpaletteitem-box[type="spring"][place="palette"] {
-  background: url("chrome://global/skin/toolbar/spacer-mid.gif") no-repeat center;
+  background: url("chrome://global/skin/toolbar/Flex.png") no-repeat center;
 }
 
 /* ..... drag and drop feedback ..... */

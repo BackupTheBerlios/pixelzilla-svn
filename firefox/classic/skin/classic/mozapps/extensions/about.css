@@ -1,20 +1,30 @@
 #clientBox {
-  background-color: #FFFFFF;
+  background-color: #fafac6;
   color: #000000;
 }
 
 #extensionName {
-  font-size: large;
+  margin-bottom: 3px;
+  border-bottom: 2px dotted black;
+  font-family: Georgia, serif;
+  font-size: 15px;
   font-weight: bold;
 }
 
 #extensionVersion {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 10px;
   font-weight: bold;
-  color: #909090;
+  padding-left: 10px;
+  background: url("chrome://browser/skin/version.gif") no-repeat left center;
+  color: #888;
 }
 
 #extensionHomepage {
-  color: #0000FF;
+  margin-top: -8px;
+  color: #b20000;
+  font-weight: bold;
   text-decoration: underline !important;
   cursor: pointer;
 }
@@ -46,9 +56,9 @@
 } 
 
 #extensionCreatorLabel, #extensionContributors {
-  border-top: 2px solid #C0C0C0;
-  padding: 2px 0px 3px 0px;
-  margin-top: 3px;
+  border-top: solid 1px #eae9be;
+  padding: 6px 0px 3px 0px;
+  margin-top: 8px;
   font-weight: bold;
 }
 
