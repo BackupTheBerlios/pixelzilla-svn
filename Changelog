@@ -1,3 +1,13 @@
+2004-08-24	Victor Nilsson	<vervex@home.se>
+
+	* Moved the web developer code from firefox/.../global.css to 
+	  browser.css
+
+	* firefox/help/help.css
+	* firefox/mozapps/extensions/extensions.css
+	* update.rdf
+
+
 2004-08-23	Victor Nilsson	<vervex@home.se>
 
 	* firefox/global/menu.css: a fix which makes dropdown arrows 

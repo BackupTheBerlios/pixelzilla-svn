@@ -44,7 +44,7 @@
   -moz-image-region: rect(20px, 60px, 40px, 40px) !important;
 }
 
-#uninstallButton .button-icon, #updateButton .button-icon {
+#uninstallButton .button-icon, #updateButton .button-icon, #useThemeButton .button-icon {
   margin: 0px 5px 0px 0px !important;
 }
 

@@ -163,17 +163,3 @@ sidebarheader > label {
 .toolbar-focustarget {
   -moz-user-focus: ignore !important;
 }
-
-/* ::::: web developer toolbar ::::: */
-.webdeveloper-toolbar-button
-{
-  list-style-image: url("chrome://mozapps/skin/webdeveloper/webdev-toolbar.png") !important;
-}
-.webdeveloper-statusbar-button
-{ 
-  list-style-image: url("chrome://mozapps/skin/webdeveloper/webdev-statusbar.png") !important; 
-}
-.webdeveloper-sidebar-button
-{
- list-style-image: url("chrome://mozapps/skin/webdeveloper/webdev-sidebar.png") !important;
-}

@@ -38,7 +38,7 @@
 @import url("chrome://global/skin/");
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-.toolbarbutton-1 {
+.toolbarbutton-1, .browserButton {
 	-moz-box-orient: vertical;
 	min-width: 0px;
 	list-style-image: url("chrome://help/skin/help-toolbar.png");
