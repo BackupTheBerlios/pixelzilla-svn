@@ -29,7 +29,7 @@ tabpanels {
 }
 
 tab[busy] > .tab-icon {
-  list-style-image: url("chrome://browser/skin/icons/tab-loading.gif");
+  list-style-image: url("chrome://browser/skin/tab-loading.gif");
 }
 
 tab[selected="true"] {
