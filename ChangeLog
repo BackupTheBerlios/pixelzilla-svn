@@ -1,3 +1,33 @@
+2005-03-24  Roman Joost	<roman@bromeco.de>
+
+	* preview.png
+	* preview.gif
+	* install.rdf
+	* contents.rdf
+	* mozapps/extensions
+	* mozapps/extensions/actionbuttons.png
+	* mozapps/extensions/about.css
+	* mozapps/extensions/themeGeneric.png
+	* mozapps/extensions/extensions.css
+	* mozapps/extensions/placeholder.gif
+	* mozapps/extensions/extensionHome.png
+	* mozapps/extensions/extensionOptions.png
+	* mozapps/update
+	* mozapps/update/icon32.png
+	* mozapps/update/update.png
+	* mozapps/update/update.css
+	* mozapps/update/warning.gif
+	* mozapps/shared
+	* mozapps/shared/richview.xml
+	* mozapps/shared/viewFader.png
+	* mozapps/shared/itemFader.png
+	* mozapps/shared/extensionalert.png
+	* mozapps/shared/richview.css
+	* mozapps/shared/itemSelected.png
+	* mozapps/shared/info.png: applied patch submitted by Yury
+	Soldak and a new splash image for (thunderbird)-PixelZilla from
+	Lars Joost
+	
 2004-09-16  Roman Joost	<roman@bromeco.de>
 
 	* firefox/browser/browser.css: fixed bug #002269
