@@ -19,7 +19,6 @@
  *
  * Contributor(s):
  *   Joe Hewitt (hewitt@netscape.com)
- *   Brian Ryner <bryner@brianryner.com>
  */
 
 /* ===== autocomplete.css =================================================
@@ -33,17 +32,6 @@
 textbox {
   cursor: default;
   padding: 0;
-  -moz-appearance: none;
-  border: none !important;
-}
-
-.autocomplete-textbox-container {
-  -moz-appearance: menulist-textfield;
-  border: 2px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDHighlight ThreeDLightShadow; 
-  -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
 }
 
 .textbox-input-box {
@@ -98,9 +86,11 @@ textbox {
 .autocomplete-tree {
   border: none;
   background-color: transparent !important;
+  -moz-appearance: none;
 }
 
 .autocomplete-treecol {
+  -moz-appearance: none;
   margin: 0 !important;
   border: none !important;
   padding: 0 !important;

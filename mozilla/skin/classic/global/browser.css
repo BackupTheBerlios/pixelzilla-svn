@@ -30,21 +30,28 @@ tabpanels {
 }
 
 tab[busy] > .tab-icon {
-  list-style-image: url("chrome://communicator/skin/icons/tab-loading.gif");
+  list-style-image: url("chrome://navigator/skin/tab-loading.gif");
 }
 
 /* ::::: close button ::::: */
 
 .tabs-closebutton {
   margin: 2px 3px 2px 3px;
-  list-style-image: url("chrome://global/skin/icons/tab-close.png");
+  list-style-image: url("chrome://navigator/skin/tab-close.png");
+	-moz-image-region: rect(0px, 16px, 14px, 0px);
 }
-
+.tabs-closebutton:hover {
+  -moz-image-region: rect(0px, 32px, 14px, 16px);
+}
 .tabs-closebutton > .toolbarbutton-icon {
   margin: 0;
 }
 
 .tabs-newbutton {
   margin: 2px 3px 2px 3px;
-  list-style-image: url("chrome://global/skin/icons/tab-new.png");
+  list-style-image: url("chrome://navigator/skin/tab-new.png");
+	-moz-image-region: rect(0px, 16px, 14px, 0px);
+}
+.tabs-newbutton:hover {
+  -moz-image-region: rect(0px, 32px, 14px, 16px);
 }

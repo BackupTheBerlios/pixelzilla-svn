@@ -18,7 +18,6 @@
  * Rights Reserved.
  *
  * Contributor(s):
- *  Brian Ryner <bryner@brianryner.com>
  *
  */
 
@@ -34,12 +33,12 @@ checkbox {
   -moz-appearance: checkbox-container;
   -moz-box-align: center;
   margin: 2px 4px;
-  padding: 0px 2px;
-  border: 1px solid transparent;
+  padding: 1px 2px 1px 4px;
 }
 
 .checkbox-label-box {
   margin-left: 2px;
+  border: 1px solid transparent;
   padding: 0px 1px;
 }
 
@@ -53,8 +52,8 @@ checkbox {
 
 /* ..... focused state ..... */
 
-checkbox:focus {
-  border: 1px solid ThreeDDarkShadow;
+checkbox:focus > .checkbox-label-box {
+  border: 1px dotted ThreeDDarkShadow;
 }
 
 /* ..... disabled state ..... */
@@ -73,7 +72,6 @@ checkbox[disabled="true"] {
   -moz-appearance: checkbox;
   -moz-box-align: center;
   border: 2px solid;
-  margin: 5px 0px 4px 0px;
   -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
   -moz-border-right-colors: ThreeDHighlight ThreeDLightShadow;
   -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;

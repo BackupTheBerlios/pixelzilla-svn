@@ -41,11 +41,13 @@
 /* ::::: file/directory items ::::: */
 
 treechildren::-moz-tree-image(FilenameColumn, directory) {
-  list-style-image: url("chrome://navigator/skin/bookmarks/bookmark-folder-closed.png");
+  list-style-image: url("chrome://global/skin/icons/folder-item.png");
+  -moz-image-region: rect(0px, 32px, 16px, 16px);
 }
 
 treechildren::-moz-tree-image(FilenameColumn, file) {
-  list-style-image: url("chrome://navigator/skin/bookmarks/bookmark-item.png");
+  list-style-image: url("chrome://global/skin/icons/folder-item.png");
+  -moz-image-region: rect(0px, 16px, 16px, 0px);
 }
 
 /* ::::: button items ::::: */

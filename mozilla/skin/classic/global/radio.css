@@ -18,7 +18,6 @@
  * Rights Reserved.
  *
  * Contributor(s):
- *  Brian Ryner <bryner@brianryner.com>
  *
  */
 
@@ -34,12 +33,12 @@ radio {
   -moz-appearance: radio-container;
   -moz-box-align: center;
   margin: 2px 4px;
-  padding: 0px 2px 0px 1px;
-  border: 1px solid transparent;
+  padding: 1px 2px 1px 4px;
 }
 
 .radio-label-box {
   margin-left: 2px;
+  border: 1px solid transparent;
   padding: 0px 0px 1px 1px;
 }
 
@@ -53,8 +52,8 @@ radio {
 
 /* ..... focused state ..... */
 
-radio[focused="true"] {
-  border: 1px solid ThreeDDarkShadow;
+radio[focused="true"] > .radio-label-box {
+  border: 1px dotted ThreeDDarkShadow;
 }
 
 /* ..... disabled state ..... */
@@ -71,14 +70,14 @@ radio[disabled="true"] {
 
 .radio-check-box1 {
   -moz-appearance: radio;
-  margin: 3px 0px 4px 0px;
+  margin: 1px 0px;
   border-top: 1px solid ThreeDShadow;
   border-right: 1px solid ThreeDHighlight;
   border-bottom: 1px solid ThreeDHighlight;
   border-left: 1px solid ThreeDShadow;
   -moz-border-radius: 50%;
-  min-width: 12px;
-  min-height: 12px;
+  width: 12px;
+  height: 12px;
   background-color: -moz-Field;
 }
 

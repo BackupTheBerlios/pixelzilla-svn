@@ -385,13 +385,16 @@ toolbar[iconsize="small"] .toolbarbutton-1[type="menu-button"][disabled="true"]:
 }
 
 #minimize-button {
-  list-style-image: url("chrome://navigator/skin/icons/minimize.gif");
-}
+  list-style-image: url("chrome://global/skin/icons/window-controls.gif");
+  -moz-image-region: rect(0px, 10px, 9px, 0px);
+} 
 #restore-button {
-  list-style-image: url("chrome://navigator/skin/icons/restore.gif");
-}
+  list-style-image: url("chrome://global/skin/icons/window-controls.gif");
+  -moz-image-region: rect(0px, 20px, 9px, 10px);
+} 
 #close-button {
-  list-style-image: url("chrome://navigator/skin/icons/close.gif");
+  list-style-image: url("chrome://global/skin/icons/window-controls.gif");
+  -moz-image-region: rect(0px, 30px, 9px, 20px);
 }
 
 /* ::::: nav-bar-inner ::::: */
@@ -595,13 +598,12 @@ toolbar[mode="text"] #navigator-throbber[busy="true"] {
 }
 
 #content .tabs-closebutton {
-  list-style-image: url("chrome://browser/skin/Close-tab.png");
- /* -moz-image-region: rect(0px, 18px, 14px, 0px); */
+  list-style-image: url("chrome://browser/skin/tab-close.png");
+  -moz-image-region: rect(0px, 16px, 14px, 0px);
 }
 
 #content .tabs-closebutton:hover {
-  list-style-image: url("chrome://browser/skin/Close-tab.png");
-  /*-moz-image-region: rect(0px, 36px, 14px, 18px);*/
+  -moz-image-region: rect(0px, 32px, 14px, 16px);
 }
 
 toolbarbutton.chevron {
