@@ -154,6 +154,54 @@ menuitem.bookmark-item {
   list-style-image: url("chrome://browser/skin/toolbar.png");
 }
 
+.toolbarbutton-1, .toolbarbutton-menubutton-button  {
+  padding: 8px 4px 8px 4px;
+}
+
+.toolbarbutton-1:hover:active,
+.toolbarbutton-1[open="true"],
+.toolbarbutton-menubutton-button:hover:active,
+.toolbarbutton-menubutton-button[open="true"] {
+  padding: 9px 3px 7px 5px
+}
+
+.toolbarbutton-1[disabled="true"],
+.toolbarbutton-1[disabled="true"]:hover,
+.toolbarbutton-1[disabled="true"]:hover:active,
+.toolbarbutton-1[disabled="true"][open="true"],
+.toolbarbutton-menubutton-button[disabled="true"],
+.toolbarbutton-menubutton-button[disabled="true"]:hover,
+.toolbarbutton-menubutton-button[disabled="true"]:hover:active,
+.toolbarbutton-menubutton-button[disabled="true"][open="true"] {
+  padding: 8px 4px 8px 4px;
+}
+
+.toolbarbutton-1[checked="true"],
+.toolbarbutton-menubutton-button[checked="true"] {
+  padding: 9px 3px 7px 5px !important;
+}
+
+#nav-bar .toolbarbutton-menubutton-button,
+#nav-bar .toolbarbutton-menubutton-button:hover,
+#nav-bar .toolbarbutton-menubutton-button[buttonover="true"] {
+  padding-left: 8px;
+}
+
+#nav-bar .toolbarbutton-menubutton-button:hover:active,
+#nav-bar .toolbarbutton-menubutton-button[open="true"],
+#nav-bar .toolbarbutton-menubutton-button[checked="true"] {
+  padding-left: 9px;
+}
+
+
+#nav-bar .toolbarbutton-menubutton-button[disabled="true"],
+#nav-bar .toolbarbutton-menubutton-button[disabled="true"]:hover,
+#nav-bar .toolbarbutton-menubutton-button[disabled="true"]:hover:active,
+#nav-bar .toolbarbutton-menubutton-button[disabled="true"][open="true"] {
+  padding-left: 8px;
+}
+
+
 toolbarbutton:not([disabled="true"]):hover,
 menubutton:not([disabled="true"]):hover,
 toolbarbutton:not([disabled="true"]):hover:active,
@@ -345,34 +393,42 @@ toolbar[mode="text"] .toolbarbutton-text {
 
 /* Smaller padding on small toolbar buttons */
 
-toolbar[iconsize="small"] .toolbarbutton-1 {
-  padding: 2px;
+toolbar[iconsize="small"] .toolbarbutton-1,
+toolbar[iconsize="small"] .toolbarbutton-menubutton-button  {
+  padding: 3px;
 }
 
 toolbar[iconsize="small"] .toolbarbutton-1:hover:active,
-toolbar[iconsize="small"] .toolbarbutton-1[open="true"] {
-  padding: 3px 1px 1px 3px;
+toolbar[iconsize="small"] .toolbarbutton-1[open="true"],
+toolbar[iconsize="small"] .toolbarbutton-menubutton-button:hover:active,
+toolbar[iconsize="small"] .toolbarbutton-menubutton-button[open="true"] {
+  padding: 4px 2px 2px 4px;
 }
 
 toolbar[iconsize="small"] .toolbarbutton-1[disabled="true"],
 toolbar[iconsize="small"] .toolbarbutton-1[disabled="true"]:hover,
 toolbar[iconsize="small"] .toolbarbutton-1[disabled="true"]:hover:active,
-toolbar[iconsize="small"] .toolbarbutton-1[disabled="true"][open="true"] {
-  padding: 2px;
+toolbar[iconsize="small"] .toolbarbutton-1[disabled="true"][open="true"],
+toolbar[iconsize="small"] .toolbarbutton-menubutton-button[disabled="true"],
+toolbar[iconsize="small"] .toolbarbutton-menubutton-button[disabled="true"]:hover,
+toolbar[iconsize="small"] .toolbarbutton-menubutton-button[disabled="true"]:hover:active,
+toolbar[iconsize="small"] .toolbarbutton-menubutton-button[disabled="true"][open="true"] {
+  padding: 3px;
 }
 
-toolbar[iconsize="small"] .toolbarbutton-1[checked="true"] {
-  padding: 3px 1px 1px 3px !important;
+toolbar[iconsize="small"] .toolbarbutton-1[checked="true"],
+toolbar[iconsize="small"] .toolbarbutton-menubutton-button[checked="true"] {
+  padding: 4px 2px 2px 4px !important;
 }
 
-toolbar[iconsize="small"] .toolbarbutton-1[type="menu-button"],
-toolbar[iconsize="small"] .toolbarbutton-1[type="menu-button"]:hover,
-toolbar[iconsize="small"] .toolbarbutton-1[type="menu-button"]:hover:active,
-toolbar[iconsize="small"] .toolbarbutton-1[type="menu-button"][open="true"],
-toolbar[iconsize="small"] .toolbarbutton-1[type="menu-button"][disabled="true"],
-toolbar[iconsize="small"] .toolbarbutton-1[type="menu-button"][disabled="true"]:hover,
-toolbar[iconsize="small"] .toolbarbutton-1[type="menu-button"][disabled="true"]:hover:active {
-  padding: 0;
+.toolbarbutton-1[type="menu-button"],
+.toolbarbutton-1[type="menu-button"]:hover,
+.toolbarbutton-1[type="menu-button"]:hover:active,
+.toolbarbutton-1[type="menu-button"][open="true"],
+.toolbarbutton-1[type="menu-button"][disabled="true"],
+.toolbarbutton-1[type="menu-button"][disabled="true"]:hover,
+.toolbarbutton-1[type="menu-button"][disabled="true"]:hover:active {
+  padding: 0 !important;
 }
 
 /* ::::: fullscreen window controls ::::: */
@@ -522,7 +578,7 @@ statusbarpanel#statusbar-display {
   -moz-appearance: none;
   background-color: transparent;
   margin: 0;
-  padding: 0;
+  padding: 2px;
   min-width: 0;
   list-style-image: url("chrome://browser/skin/Go.png");
   -moz-image-region: rect(0px, 20px, 20px, 0px);
@@ -665,6 +721,7 @@ toolbar[mode="text"] #navigator-throbber[busy="true"] {
 .tabs-newbutton {
   list-style-image: url("chrome://browser/skin/tab-new.png") !important;
 	-moz-image-region: rect(0px, 16px, 14px, 0px) !important;
+	margin: 2px 3px 2px 3px;
 }
 .tabs-newbutton:hover {
   -moz-image-region: rect(0px, 32px, 14px, 16px) !important;
