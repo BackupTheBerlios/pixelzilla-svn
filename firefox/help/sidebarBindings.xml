@@ -9,6 +9,8 @@
     <content>
       <xul:image class="sbtab-twisty" xbl:inherits="selected"/>
       <xul:label class="sidebar-title" flex="1" xbl:inherits="value=label"/>
+			<xul:spacer flex="1"/>
+      <xul:image class="sbtab-texture"/>
     </content>
   </binding>
 

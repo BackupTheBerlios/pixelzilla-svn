@@ -57,8 +57,10 @@ menubutton:not([disabled="true"]):hover:active {
 	color: ButtonText !important;
 }
 
-/* Set the minimum sidebar width so the help contents aren't squeezed together.*/
-#helpsidebar-box { width: 200px; }
+#helpsidebar-box {
+	width: 200px; /* Set the minimum sidebar width so the help contents aren't squeezed together.*/
+	margin-top: -1px;
+}
 
 #help-back-button {
   list-style-image: url("chrome://browser/skin/toolbar.png");
@@ -105,13 +107,13 @@ menubutton:not([disabled="true"]):hover:active {
 }
 
 #help-zoom-large-button { -moz-image-region: rect(0px 20px 20px 0px); }
-#help-zoom-large-button:hover { -moz-image-region: rect(40px 20px 60px 0px); }
+#help-zoom-large-button:hover { -moz-image-region: rect(20px 20px 40px 0px); }
 
 #help-zoom-small-button { -moz-image-region: rect(0px 40px 20px 20px); }
 #help-zoom-small-button:hover { -moz-image-region: rect(20px 40px 40px 20px); }
 
 #help-sidebar-button { -moz-image-region: rect(0px 60px 20px 40px); }
-#help-sidebar-button { -moz-image-region: rect(20px 60px 40px 40px); }
+#help-sidebar-button:hover { -moz-image-region: rect(20px 60px 40px 40px); }
 
 /** Toolbar Customization stuff **/
 toolbar[mode="icons"] > toolbarbutton > .toolbarbutton-icon,
@@ -145,4 +147,12 @@ toolbar[mode="icons"] > toolbarbutton > toolbarbutton > .toolbarbutton-text {
 
 #help-throbber[busy="true"] {
   list-style-image: url("chrome://browser/skin/throbber16-anim.gif");
+}
+
+#helpsidebar-box tree {
+  margin: 0px;
+}
+
+#helpsidebar-splitter {
+  /*border-left: none;*/
 }

@@ -1,3 +1,29 @@
+2004-08-23	Victor Nilsson	<vervex@home.se>
+
+	* firefox/global/menu.css: a fix which makes dropdown arrows 
+	  appear in toolbar buttons
+	* firefox/global/icons/folder-item.png: modified disabled state
+
+	* firefox/browser/bookmarks/Bookmarks-toolbar.png: change the 
+	  icon size to 16x16 and modified some icons 
+	* firefox/browser/bookmarks/bookmarksManager.css
+
+	* firefox/help/help-toolbar.png
+	* firefox/help/help.css
+	* firefox/help/sbtab-texture.gif
+	* firefox/help/sbtab-twisty.png
+	* firefox/help/sidebar.css
+	* firefox/help/sidebarBindings.xml
+	* firefox/help/sbtab-twisty-open.gif: deleted
+	* firefox/help/sbtab-twisty.gif: deleted
+
+	* firefox/mozapps/webdeveloper/webdev-toolbar.png: replaced the 
+	  outline icon
+
+	* src/webdev-toolbar.png
+	* src/help-toolbar.xcf
+
+
 2004-08-14	Roman Joost	<roman@bromeco.de>
 
 	* firefox/install.rdf: new version
