@@ -25,18 +25,19 @@ tabpanels {
   margin-right: 3px;
   width: 16px;
   height: 16px;
-  list-style-image: url("chrome://communicator/skin/bookmarks/bookmark-item.gif"); 
+  list-style-image: url("chrome://global/skin/icons/folder-item.png");
+  -moz-image-region: rect(0px, 16px, 16px, 0px);
 }
 
 tab[busy] > .tab-icon {
-  list-style-image: url("chrome://communicator/skin/icons/loading.gif");
+  list-style-image: url("chrome://communicator/skin/icons/tab-loading.gif");
 }
 
 /* ::::: close button ::::: */
 
 .tabs-closebutton {
-  margin: 3px;
-  list-style-image: url("chrome://global/skin/icons/close-button.gif");
+  margin: 2px 3px 2px 3px;
+  list-style-image: url("chrome://global/skin/icons/tab-close.png");
 }
 
 .tabs-closebutton > .toolbarbutton-icon {
@@ -44,6 +45,6 @@ tab[busy] > .tab-icon {
 }
 
 .tabs-newbutton {
-  margin: 0px;
-  list-style-image: url("chrome://global/skin/icons/tab-new.gif");
+  margin: 2px 3px 2px 3px;
+  list-style-image: url("chrome://global/skin/icons/tab-new.png");
 }

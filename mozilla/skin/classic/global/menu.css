@@ -81,14 +81,17 @@ menuitem[_moz-menuactive="true"][disabled="true"] {
   margin: 0px 0px 0px 6px;
   width: 8px;
   list-style-image: url("chrome://global/skin/menu/menu-arrow.gif");
+	-moz-image-region: auto;
 }
 
 .menu-right[_moz-menuactive="true"] {
   list-style-image: url("chrome://global/skin/menu/menu-arrow-hover.gif");
+	-moz-image-region: auto;
 }
 
 .menu-right[disabled="true"] {
   list-style-image: url("chrome://global/skin/menu/menu-arrow-disabled.gif") !important;
+	-moz-image-region: auto;
 }
 
 /* ::::: menu/menuitems in menubar ::::: */

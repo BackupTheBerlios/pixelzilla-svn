@@ -30,9 +30,9 @@
 /* ..... orientation ..... */
 
 .toolbar-portrait-page {
-  list-style-image: url("chrome://global/skin/icons/Portrait-small.png");
+  list-style-image: url("chrome://global/skin/icons/pg-portrait-small.png");
 }
 
 .toolbar-landscape-page {
-  list-style-image: url("chrome://global/skin/icons/Landscape-small.png");
+  list-style-image: url("chrome://global/skin/icons/pg-landscape-small.png");
 }

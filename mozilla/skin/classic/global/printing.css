@@ -69,19 +69,19 @@
 /* ..... orientation ..... */
 
 .toolbar-portrait-page {
-  list-style-image: url("chrome://global/skin/icons/pg-portrait-small.gif");
+  list-style-image: url("chrome://global/skin/icons/pg-portrait-small.png");
 }
 
 .toolbar-landscape-page {
-  list-style-image: url("chrome://global/skin/icons/pg-landscape-small.gif");
+  list-style-image: url("chrome://global/skin/icons/pg-landscape-small.png");
 }
 
 /* ::::: page setup dialog ::::: */
 
 .portrait-page {
-  list-style-image: url("chrome://global/skin/icons/pg-portrait.gif");
+  list-style-image: url("chrome://global/skin/icons/pg-portrait.png");
 }
 
 .landscape-page {
-  list-style-image: url("chrome://global/skin/icons/pg-landscape.gif");
+  list-style-image: url("chrome://global/skin/icons/pg-landscape.png");
 }

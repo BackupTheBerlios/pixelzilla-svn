@@ -55,16 +55,16 @@ download {
   border-bottom: 1px dotted #C0C0C0;
 }
 
+download[state="0"], download[state="-1"], download[state="4"] {
+	background-color: transparent;
+  background-image: url("chrome://mozapps/skin/shared/itemFader.png");
+}
+
 download[selected="true"] {
   margin-top: -1px;
   background-image: url("chrome://mozapps/skin/shared/itemSelected.png");
   border-top: 1px dotted #000;
 	border-bottom: 1px dotted #000;
-}
-
-download[state="0"], download[state="-1"], download[state="4"] {
-	background-color: transparent;
-  background-image: url("chrome://mozapps/skin/shared/itemFader.png");
 }
 
 /* Download View Items, implementation */

@@ -45,7 +45,7 @@
 /* ::::: primary toolbar buttons ::::: */
 
 .toolbarbutton-1 {
-  list-style-image: url("chrome://navigator/skin/icons/Toolbar-small.png");
+  list-style-image: url("chrome://navigator/skin/icons/toolbar.png");
 }
 #back-button {
   -moz-image-region: rect(0px 20px 20px 0px);
@@ -67,14 +67,11 @@
   -moz-image-region: rect(40px 40px 60px 20px) !important;
 }
 
- #reload-button {
+#reload-button {
   -moz-image-region: rect(0px 80px 20px 60px);
 }
  #reload-button:hover {
   -moz-image-region: rect(20px 80px 40px 60px);
-}
-#reload-button[disabled="true"] {
-  -moz-image-region: rect(40px 80px 60px 60px) !important;
 }
 
 #stop-button {
@@ -88,17 +85,18 @@
 }
 
 #print-button {
-  -moz-image-region: rect(0px 180px 20px 160px);
+  -moz-image-region: rect(0px 120px 20px 100px);
 }
 #print-button[buttonover="true"] {
-  -moz-image-region: rect(20px 180px 40px 160px);
-}
-#print-button[disabled="true"] {
-  -moz-image-region: rect(40px 180px 60px 160px);
+  -moz-image-region: rect(20px 120px 40px 100px);
 }
 
-#home-button {
-  list-style-image: url("chrome://navigator/skin/icons/home.png");
+#home {
+  list-style-image: url("chrome://navigator/skin/icons/toolbar.png") !important;
+  -moz-image-region: rect(0px 100px 20px 80px);
+}
+#home:hover {
+  -moz-image-region: rect(20px 100px 40px 80px);
 }
 
 #fullscreen-exit-button {
@@ -118,9 +116,8 @@
 #search-button[toolbarmode="small"] > .button-box > .button-text {
   display: none;
 }
-
-.toolbarbutton-icon[toolbarmode="small"] {
-  display: inline;
+#go-button[toolbarmode="small"] > .button-box > .button-text {
+  display: none;
 }
 
 #nav-bar[toolbarmode="small"] > .toolbar-primary-grippy {
@@ -182,24 +179,17 @@
 }
 
 #page-proxy-button {
-  list-style-image: url("chrome://communicator/skin/bookmarks/location.gif"); 
+  list-style-image: url("chrome://global/skin/icons/folder-item.png");
+  -moz-image-region: rect(0px, 16px, 16px, 0px);
 } 
 
 #page-proxy-favicon {
   list-style-image: none;
-} 
-
-#page-proxy-button[pageproxystate="valid"]:hover  {
-  list-style-image: url("chrome://communicator/skin/bookmarks/location-hov.gif");
-}
-  
-#page-proxy-button[pageproxystate="valid"]:hover:active {
-  list-style-image: url("chrome://communicator/skin/bookmarks/location-act.gif");
 }
 
 #page-proxy-button[pageproxystate="invalid"] {
   cursor: default;
-  list-style-image: url("chrome://communicator/skin/bookmarks/location-dis.gif");
+  -moz-image-region: rect(32px, 16px, 48px, 0px) !important;
 }
 
 /* ::::: autocomplete ::::: */
@@ -244,27 +234,52 @@
 
 /* ::::: go and searchbuttons ::::: */
 
-#search-button, 
+#go-button, #search-button {
+  -moz-binding: url("chrome://global/skin/bindings/toolbarbutton.xml#toolbarbutton");
+  -moz-appearance: toolbarbutton;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+  margin: 0;
+  border: 2px solid;
+  -moz-border-top-colors: transparent;
+  -moz-border-right-colors: transparent;
+  -moz-border-bottom-colors: transparent;
+  -moz-border-left-colors: transparent;
+  padding: 1px 2px 3px 2px;
+  background-color: transparent;
+  color: -moz-DialogText;
+  -moz-box-orient: vertical;
+	list-style-image: url("chrome://navigator/skin/icons/toolbar.png");
+}
+
+#go-button:hover, #search-button:hover {
+  -moz-border-top-colors: ThreeDDarkShadow ThreeDHighlight;
+  -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-left-colors: ThreeDDarkShadow ThreeDHighlight;
+}
+
+#go-button:hover:active, #search-button:hover:active {
+  -moz-border-top-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-right-colors: ThreeDDarkShadow ThreeDHighlight;
+  -moz-border-bottom-colors: ThreeDDarkShadow ThreeDHighlight;
+  -moz-border-left-colors: ThreeDDarkShadow ThreeDShadow;
+	/*padding: 2px 1px 2px 3px;*/
+}
+
 #go-button {
-  margin: 0px 4px 0px 0px;
-  min-height: 25px;
-  font: message-box;
-  font-weight: bold;
+  -moz-image-region: rect(0px 140px 20px 120px);
+}
+#go-button:hover {
+  -moz-image-region: rect(20px 140px 40px 120px);
 }
 
 #search-button {
-  list-style-image: url("chrome://navigator/skin/icons/Search-bar.png");
-  font-weight: bold;
+  -moz-image-region: rect(0px 160px 20px 140px);
 }
-
-/*
 #search-button:hover {
-  list-style-image: url("chrome://communicator/skin/icons/search-hov.gif");
+  -moz-image-region: rect(20px 160px 40px 140px);
 }
-
-#search-button:hover:active {
-  list-style-image: url("chrome://communicator/skin/icons/search-act.gif");
-} */
 
 /* ::::: sidebar splitter ::::: */
 
@@ -292,11 +307,7 @@
   list-style-image: url("chrome://communicator/skin/icons/lock-insecure.png");
 }
 
-#security-button[level="high"] {
-  list-style-image: url("chrome://communicator/skin/icons/lock-secure.png");
-}
-
-#security-button[level="low"] {
+#security-button[level="high"], #security-button[level="low"] {
   list-style-image: url("chrome://communicator/skin/icons/lock-secure.png");
 }
 
@@ -317,8 +328,20 @@
 
 #bookmarks-button,
 #bookmarks-button[open="true"] {
-  list-style-image: url("chrome://navigator/skin/bookmarks/bookmark-folder-closed.png");
+  list-style-image: url("chrome://global/skin/icons/folder-item.png");
+  -moz-image-region: rect(0px, 32px, 16px, 16px);
 }
+
+#home-button {
+  list-style-image: url("chrome://navigator/skin/icons/home.png");
+	-moz-image-region: rect(0px, 16px, 16px, 0px);
+}
+#home-button:hover {
+  -moz-image-region: rect(0px, 32px, 16px, 16px);
+}
+#home-button .toolbarbutton-text {
+ margin-left: 3px !important;
+} 
 
 #PersonalToolbar > .toolbar-prefix {
   border-left: 1px solid ThreeDHighlight;

@@ -41,43 +41,97 @@
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-/** 
- * XXX - disable print plus. This needs to go into ns/!!!
- */    
-  #navprintplus
-    {
-      display             : none !important; 
-    }
-      
-  #status-bar
-    {
-      height              : 1em;
-    }
-    
-  #notification-icon  
-    {
-      list-style-image    : url("chrome://communicator/skin/bookmarks/notification.gif");
-    }    
-    
-  #schedule-icon  
-    {
-      list-style-image    : url("chrome://communicator/skin/bookmarks/schedule.gif");
-    }    
-    
-  #panel-bar,
-  #search-bar
-    {
-      border-top: 1px solid ThreeDHighlight;
-      border-bottom: 1px solid ThreeDShadow;
-    }    
+#status-bar {
+  height: 1em;
+}
 
-  bookmarks-tree.inset
-    {
-      margin: 0px;
-      -moz-border-top-colors: ThreeDDarkShadow ThreeDShadow;
-      -moz-border-right-colors: ThreeDFace ThreeDHighlight;
-      -moz-border-bottom-colors: ThreeDFace ThreeDHighlight;
-      -moz-border-left-colors: ThreeDDarkShadow ThreeDShadow;
-    }
-    
-  
+#panel-bar,
+#search-bar {
+  border-top: 1px solid ThreeDHighlight;
+  border-bottom: 1px solid ThreeDShadow;
+}
+
+bookmarks-tree.inset {
+  margin: 0px;
+  -moz-border-top-colors: ThreeDDarkShadow ThreeDShadow;
+  -moz-border-right-colors: ThreeDFace ThreeDHighlight;
+  -moz-border-bottom-colors: ThreeDFace ThreeDHighlight;
+  -moz-border-left-colors: ThreeDDarkShadow ThreeDShadow;
+}
+
+/* ::::: bookmarks toolbar ::::: */
+
+#bookmark-window toolbarbutton {
+  list-style-image: url("chrome://communicator/skin/bookmarks/Bookmarks-toolbar.png");
+  -moz-box-orient: vertical;
+}
+
+#newbookmark {
+  -moz-image-region: rect(0px, 140px, 20px, 120px);
+}
+#newbookmark:hover {
+  -moz-image-region: rect(20px, 140px, 40px, 120px);
+}
+#newbookmark[disabled="true"] {
+  -moz-image-region: rect(40px, 140px, 60px, 120px);
+}
+
+#newfolder {
+  -moz-image-region: rect(0px, 20px, 20px, 0px);
+}
+#newfolder:hover {
+  -moz-image-region: rect(20px, 20px, 40px, 0px);
+}
+#newfolder[disabled="true"] {
+  -moz-image-region: rect(40px, 20px, 60px, 0px);
+}
+
+#newseparator {
+  -moz-image-region: rect(0px, 40px, 20px, 20px);
+}
+#newseparator:hover {
+  -moz-image-region: rect(20px, 40px, 40px, 20px);
+}
+#newseparator[disabled="true"] {
+  -moz-image-region: rect(40px, 40px, 60px, 20px);
+}
+
+#moveBookmark {
+  -moz-image-region: rect(0px, 60px, 20px, 40px);
+}
+#moveBookmark:hover {
+  -moz-image-region: rect(20px, 60px, 40px, 40px);
+}
+#moveBookmark[disabled="true"] {
+  -moz-image-region: rect(40px, 60px, 60px, 40px);
+}
+
+#properties {
+  -moz-image-region: rect(0px, 80px, 20px, 60px);
+}
+#properties:hover {
+  -moz-image-region: rect(20px, 80px, 40px, 60px);
+}
+#properties[disabled="true"] {
+  -moz-image-region: rect(40px, 80px, 60px, 60px);
+}
+
+#rename {
+  -moz-image-region: rect(0px, 100px, 20px, 80px);
+}
+#rename:hover {
+  -moz-image-region: rect(20px, 100px, 40px, 80px);
+}
+#rename[disabled="true"] {
+  -moz-image-region: rect(40px, 100px, 60px, 80px);
+}
+
+#delete {
+  -moz-image-region: rect(0px, 120px, 20px, 100px);
+}
+#delete:hover {
+  -moz-image-region: rect(20px, 120px, 40px, 100px);
+}
+#delete[disabled="true"] {
+  -moz-image-region: rect(40px, 120px, 60px, 100px);
+}

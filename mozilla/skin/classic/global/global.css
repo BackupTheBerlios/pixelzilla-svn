@@ -73,24 +73,24 @@ window.dialog {
 .alert-icon,
 .error-icon,
 .question-icon {
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
 }
 
 .message-icon {
-  list-style-image: url("chrome://global/skin/icons/alert-message.gif");
+  list-style-image: url("chrome://global/skin/icons/alert-message.png");
 }
 
 .alert-icon {
-  list-style-image: url("chrome://global/skin/icons/alert-exclam.gif");
+  list-style-image: url("chrome://global/skin/icons/alert-warning.png");
 }
 
 .error-icon {
-  list-style-image: url("chrome://global/skin/icons/alert-error.gif");
+  list-style-image: url("chrome://global/skin/icons/alert-error.png");
 }
 
 .question-icon {
-  list-style-image: url("chrome://global/skin/icons/alert-question.gif");
+  list-style-image: url("chrome://global/skin/icons/alert-question.png");
 }
 
 /* ::::: iframe ::::: */
