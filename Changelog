@@ -1,3 +1,13 @@
+2004-07-26  Roman Joost <roman@bromeco.de>
+
+	* src/buttonsnew.xcf
+	* src/page-themes.xcf 
+	* firefox/global/global.css
+	* firefox/browser/webdev-toolbar.png
+	* firefox/browser/webdev-statusbar.png
+	* firefox/browser/webdev-sidebar.png: webdeveloper extension
+	  icons
+
 2004-07-23	Victor Nilsson <vervex@home.se>
 
 	* firefox/help: added help files
