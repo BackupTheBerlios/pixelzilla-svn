@@ -45,7 +45,7 @@
 /* ::::: primary toolbar buttons ::::: */
 
 .toolbarbutton-1 {
-  list-style-image: url("chrome://navigator/skin/icons/toolbar.png");
+  list-style-image: url("chrome://navigator/skin/toolbar.png");
 }
 #back-button {
   -moz-image-region: rect(0px 20px 20px 0px);
@@ -92,7 +92,7 @@
 }
 
 #home {
-  list-style-image: url("chrome://navigator/skin/icons/toolbar.png") !important;
+  list-style-image: url("chrome://navigator/skin/toolbar.png") !important;
   -moz-image-region: rect(0px 100px 20px 80px);
 }
 #home:hover {
@@ -138,15 +138,16 @@
 }
 
 #minimize-button {
-  list-style-image: url("chrome://navigator/skin/icons/minimize.gif");
+  list-style-image: url("chrome://global/skin/icons/window-controls.gif");
+  -moz-image-region: rect(0px, 10px, 9px, 0px);
 } 
-
 #restore-button {
-  list-style-image: url("chrome://navigator/skin/icons/restore.gif");
+  list-style-image: url("chrome://global/skin/icons/window-controls.gif");
+  -moz-image-region: rect(0px, 20px, 9px, 10px);
 } 
-
 #close-button {
-  list-style-image: url("chrome://navigator/skin/icons/close.gif");
+  list-style-image: url("chrome://global/skin/icons/window-controls.gif");
+  -moz-image-region: rect(0px, 30px, 9px, 20px);
 } 
   
 /* ::::: nav-bar-inner ::::: */
@@ -249,7 +250,7 @@
   background-color: transparent;
   color: -moz-DialogText;
   -moz-box-orient: vertical;
-	list-style-image: url("chrome://navigator/skin/icons/toolbar.png");
+	list-style-image: url("chrome://navigator/skin/toolbar.png");
 }
 
 #go-button:hover, #search-button:hover {
@@ -304,23 +305,23 @@
 }
 
 #security-button {
-  list-style-image: url("chrome://communicator/skin/icons/lock-insecure.png");
+  list-style-image: url("chrome://navigator/skin/lock-insecure.png");
 }
 
 #security-button[level="high"], #security-button[level="low"] {
-  list-style-image: url("chrome://communicator/skin/icons/lock-secure.png");
+  list-style-image: url("chrome://navigator/skin/lock-secure.png");
 }
 
 #security-button[level="broken"] {
-  list-style-image: url("chrome://communicator/skin/icons/lock-broken.png");
+  list-style-image: url("chrome://navigator/skin/lock-broken.png");
 }
 
 #popupIcon {
-  list-style-image: url("chrome://navigator/skin/icons/popup-blocked.png");
+  list-style-image: url("chrome://navigator/skin/popup-blocked.png");
 }
 
 #popupImage {
-  list-style-image: url("chrome://navigator/skin/icons/about-popups.gif");
+  list-style-image: url("chrome://navigator/skin/about-popups.gif");
   margin: 6px 0px;
 }
 
@@ -333,7 +334,7 @@
 }
 
 #home-button {
-  list-style-image: url("chrome://navigator/skin/icons/home.png");
+  list-style-image: url("chrome://navigator/skin/home.png");
 	-moz-image-region: rect(0px, 16px, 16px, 0px);
 }
 #home-button:hover {
