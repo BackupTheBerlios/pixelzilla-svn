@@ -590,6 +590,43 @@ statusbarpanel#statusbar-display {
   -moz-image-region: rect(16px 32px 32px 16px);
 }
 
+#find-status-icon
+{
+  list-style-image: none;
+  margin: 1px 0px 0px 12px;
+  width: 16px;
+  height: 16px;
+}
+
+#find-status
+{
+  margin: 1px 0px 0px 5px;
+}
+
+#find-status-icon[status="notfound"]
+{
+  list-style-image: url("chrome://browser/skin/find.png");
+  -moz-image-region: rect(48px 16px 62px 0px);
+}
+
+#find-field {
+  -moz-appearance: none;
+  border: none;
+  margin: 0px;
+}
+
+#find-field[status="notfound"]
+{
+  background-color: #FF6666;
+  color: #FFFFFF;
+}
+
+#find-status-icon[status="wrapped"]
+{
+  list-style-image: url("chrome://browser/skin/find.png");
+  -moz-image-region: rect(48px 32px 62px 16px);
+}
+
 #highlight
 {
   list-style-image: url("chrome://browser/skin/highlight.png");
@@ -604,6 +641,10 @@ statusbarpanel#statusbar-display {
 #highlight[disabled="true"]
 {
   -moz-image-region: rect(0px 48px 16px 32px) !important;
+}
+
+#highlight:active, #highlight[checked="true"] {
+    -moz-image-region: rect(0px 32px 16px 16px);
 }
 
 /* ::::: go button ::::: */
@@ -794,6 +835,14 @@ toolbar[mode="text"] > #window-controls > toolbarbutton > .toolbarbutton-text {
 #FindToolbar {
   border: none;
   border-top: 1px solid ThreeDShadow;
+}
+
+#find-field-container {
+  -moz-appearance: textfield;
+}
+
+#FindToolbar[flash="true"] > #find-field-container > #find-field {
+  background-color: yellow;
 }
 
 /* ::::: web developer toolbar ::::: */

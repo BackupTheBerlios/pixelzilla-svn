@@ -1,3 +1,16 @@
+2004-09-12  Roman Joost	<roman@bromeco.de>
+
+	* firefox/install.rdf: new minor version
+	
+	* firefox/browser/find.png
+	* firefox/browser/browser.css: added css styles for find, which
+	  should fix bug #002269 (not tested enough)
+	
+	* src/thunderbird_priest400x400.png: new background like image
+	  for thunderbird, source will follow
+	
+	* src/extension/extensions.xcf: added icons
+
 2004-08-24	Victor Nilsson	<vervex@home.se>
 
 	* Moved the web developer code from firefox/.../global.css to 
