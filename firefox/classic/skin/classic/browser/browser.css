@@ -658,9 +658,16 @@ toolbar[mode="text"] #navigator-throbber[busy="true"] {
   list-style-image: url("chrome://browser/skin/tab-close.png");
   -moz-image-region: rect(0px, 16px, 14px, 0px);
 }
-
 #content .tabs-closebutton:hover {
   -moz-image-region: rect(0px, 32px, 14px, 16px);
+}
+
+.tabs-newbutton {
+  list-style-image: url("chrome://browser/skin/tab-new.png") !important;
+	-moz-image-region: rect(0px, 16px, 14px, 0px) !important;
+}
+.tabs-newbutton:hover {
+  -moz-image-region: rect(0px, 32px, 14px, 16px) !important;
 }
 
 toolbarbutton.chevron {
