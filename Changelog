@@ -1,17 +1,11 @@
 2004-07-22	Victor Nilsson <vervex@home.se>
 
+	* firefox/classic/skin/classic/mozapps/downloads/downloadOptions.png 
+	* firefox/classic/skin/classic/mozapps/downloads/downloadCleanup.png
 	* firefox/classic/skin/classic/browser/page-themes.png: new icon
 
 	* src/page-themes.xcf
-
-	* firefox/classic/skin/classic/mozapps/downloads/
-	  downloadCleanup.png: new icon
-
-	* firefox/classic/skin/classic/mozapps/downloads/
-	  downloadOptions.png: new icon
-
 	* firefox/classic/skin/classic/mozapps/downloads/downloads.css
-
 	* firefox/classic/skin/classic/mozapps/downloads/
 	  downloadCleanupDisabled.png: deleted since it's not used 
 	  anymore
