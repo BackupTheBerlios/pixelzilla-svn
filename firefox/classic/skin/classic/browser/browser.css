@@ -448,7 +448,7 @@ statusbarpanel#statusbar-display {
 
 .search-proxy-button-image {
   margin: 0px;
-  list-style-image: url("chrome://browser/skin/Search-bar.png");
+  list-style-image: url("chrome://browser/skin/search-bar.png");
 }
 
 .search-proxy-button-dropmarker {
@@ -458,7 +458,7 @@ statusbarpanel#statusbar-display {
 }
 
 #__PhoenixFindInPage {
-  list-style-image: url("chrome://browser/skin/Search-bar.png");
+  list-style-image: url("chrome://browser/skin/search-bar.png");
 }
 
 /* ::::: autocomplete ::::: */
