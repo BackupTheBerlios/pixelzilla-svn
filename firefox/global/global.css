@@ -30,6 +30,8 @@
 
 @import url("chrome://global/skin/formatting.css");
 
+@import url("chrome://mozapps/skin/webdeveloper/webdeveloper.css");
+
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 /* ::::: XBL bindings ::::: */

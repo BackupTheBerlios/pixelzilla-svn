@@ -529,7 +529,8 @@ statusbarpanel#statusbar-display {
   padding-left: 0;
 }
 
-/* ::::: search-bar ::::: */
+/* ::::: search-bar :::::
+ * Only for 0.8-0.9.1+ back compatibility, searchbar.css is now used instead */
 
 #search-proxy-button {
   margin-top: 2px;
@@ -558,94 +559,6 @@ statusbarpanel#statusbar-display {
   color: #555566;
 }
 
-#find-previous 
-{
-  list-style-image: url("chrome://browser/skin/find.png");
-  -moz-image-region: rect(0px 16px 16px 0px);
-}
-
-#find-previous[disabled="true"]
-{
-  -moz-image-region: rect(0px 48px 16px 32px) !important;
-}
-	
-#find-previous:hover
-{
-  -moz-image-region: rect(0px 32px 16px 16px);
-}
-
-#find-next 
-{
-  list-style-image: url("chrome://browser/skin/find.png");
-  -moz-image-region: rect(16px 16px 32px 0px);
-}
-
-#find-next[disabled="true"]
-{
-  -moz-image-region: rect(16px 48px 32px 32px) !important;
-}
-
-#find-next:hover
-{
-  -moz-image-region: rect(16px 32px 32px 16px);
-}
-
-#find-status-icon
-{
-  list-style-image: none;
-  margin: 1px 0px 0px 12px;
-  width: 16px;
-  height: 16px;
-}
-
-#find-status
-{
-  margin: 1px 0px 0px 5px;
-}
-
-#find-status-icon[status="notfound"]
-{
-  list-style-image: url("chrome://mozapps/skin/shared/extensionalert.png");
-  -moz-image-region: rect(0px 48px 16px 32px);
-}
-
-#find-field {
-  -moz-appearance: none;
-  border: none;
-  margin: 0px;
-}
-
-#find-field[status="notfound"]
-{
-  background-color: #FF6666;
-  color: #FFFFFF;
-}
-
-#find-status-icon[status="wrapped"]
-{
-  list-style-image: url("chrome://mozapps/skin/shared/extensionalert.png");
-  -moz-image-region: rect(0px 32px 16px 16px);
-}
-
-#highlight
-{
-  list-style-image: url("chrome://browser/skin/highlight.png");
-  -moz-image-region: rect(0px 16px 16px 0px);
-}
-
-#highlight:hover
-{
-  -moz-image-region: rect(0px 32px 16px 16px);
-}
-
-#highlight[disabled="true"]
-{
-  -moz-image-region: rect(0px 48px 16px 32px) !important;
-}
-
-#highlight:active, #highlight[checked="true"] {
-    -moz-image-region: rect(0px 32px 16px 16px);
-}
 
 /* ::::: go button ::::: */
 
@@ -744,14 +657,13 @@ statusbarpanel#statusbar-display {
 }
 
 #page-theme-button {
-  display: -moz-box;
-	padding: 0px 3px 0px 3px;
-  list-style-image: url("chrome://browser/skin/page-themes.png");
-	-moz-image-region: rect(0px, 32px, 16px, 16px);
+  display: none;
 }
 
 #page-theme-button[themes] {
-  -moz-image-region: rect(0px, 16px, 16px, 0px);
+  display: -moz-box;
+	padding: 0px 3px 0px 3px;
+  list-style-image: url("chrome://browser/skin/page-themes.png");
 }
 
 #livemark-button {
@@ -830,6 +742,96 @@ toolbar[mode="text"] > #window-controls > toolbarbutton > .toolbarbutton-text {
 
 #sidebar-throbber[loading="true"] {
   list-style-image: url(chrome://global/skin/icons/loading.gif);
+}
+
+
+#find-previous 
+{
+  list-style-image: url("chrome://browser/skin/find.png");
+  -moz-image-region: rect(0px 16px 16px 0px);
+}
+
+#find-previous[disabled="true"]
+{
+  -moz-image-region: rect(0px 48px 16px 32px) !important;
+}
+	
+#find-previous:hover
+{
+  -moz-image-region: rect(0px 32px 16px 16px);
+}
+
+#find-next 
+{
+  list-style-image: url("chrome://browser/skin/find.png");
+  -moz-image-region: rect(16px 16px 32px 0px);
+}
+
+#find-next[disabled="true"]
+{
+  -moz-image-region: rect(16px 48px 32px 32px) !important;
+}
+
+#find-next:hover
+{
+  -moz-image-region: rect(16px 32px 32px 16px);
+}
+
+#find-status-icon
+{
+  list-style-image: none;
+  margin: 1px 0px 0px 12px;
+  width: 16px;
+  height: 16px;
+}
+
+#find-status
+{
+  margin: 1px 0px 0px 5px;
+}
+
+#find-status-icon[status="notfound"]
+{
+  list-style-image: url("chrome://mozapps/skin/shared/extensionalert.png");
+  -moz-image-region: rect(0px 48px 16px 32px);
+}
+
+#find-field {
+  -moz-appearance: none;
+  border: none;
+  margin: 0px;
+}
+
+#find-field[status="notfound"]
+{
+  background-color: #FF6666;
+  color: #FFFFFF;
+}
+
+#find-status-icon[status="wrapped"]
+{
+  list-style-image: url("chrome://mozapps/skin/shared/extensionalert.png");
+  -moz-image-region: rect(0px 32px 16px 16px);
+}
+
+#highlight
+{
+  list-style-image: url("chrome://browser/skin/highlight.png");
+  -moz-image-region: rect(0px 16px 16px 0px);
+}
+
+#highlight:hover
+{
+  -moz-image-region: rect(0px 32px 16px 16px);
+}
+
+#highlight[disabled="true"]
+{
+  -moz-image-region: rect(0px 48px 16px 32px) !important;
+}
+
+#highlight:active, #highlight[checked="true"] {
+    -moz-image-region: rect(0px 32px 16px 16px);
 }
 
 #FindToolbar {
