@@ -1,3 +1,39 @@
+2004-08-08	Roman Joost	<roman@bromeco.de>
+
+	* firefox/global/global.css
+	* firefox/browser/webdev-toolbar.png
+	* firefox/browser/webdev-statusbar.png
+	* firefox/browser/webdev-sidebar.png
+	* firefox/mozapps/webdeveloper
+	* firefox/mozapps/webdeveloper/webdev-toolbar.png
+	* firefox/mozapps/webdeveloper/webdev-statusbar.png
+	* firefox/mozapps/webdeveloper/webdev-sidebar.png: moved into
+	   seperate location
+	   
+	* src/extensionalert.xcf
+	* src/display.xcf
+	* src/throbber_old.xcf
+	* src/packet.xcf
+	* src/throbber.xcf
+	* src/buttonsnew.xcf
+	* src/Close-tab.xcf
+	* src/little_display.xcf
+	* src/20x20-icons.xcf
+	* src/little_displayanimated.xcf
+	* src/throbber_old_merged.xcf
+	* src/throbber_merged.xcf
+	* src/tab-throbber
+	* src/tab-throbber/tab-throbber.xcf
+	* src/tab-throbber/tab-throbber_merged.xcf
+	* src/tab-new.xcf
+	* src/page-themes.xcf
+	* src/tab-throbber.xcf
+	* src/tab-throbber_merged.xcf
+	* src/16x16-icons.xcf: moved icons into container file 
+	
+	* firefox/browser/about.png
+	* src/extensionAbout.xcf: fixed name to Stephanie Warrick
+
 2004-07-26  Roman Joost <roman@bromeco.de>
 
 	* src/buttonsnew.xcf

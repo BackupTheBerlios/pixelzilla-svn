@@ -167,13 +167,13 @@ sidebarheader > label {
 /* ::::: web developer toolbar ::::: */
 .webdeveloper-toolbar-button
 {
-  list-style-image: url("chrome://browser/skin/webdev-toolbar.png") !important;
+  list-style-image: url("chrome://mozapps/skin/webdeveloper/webdev-toolbar.png") !important;
 }
 .webdeveloper-statusbar-button
 { 
-  list-style-image: url("chrome://browser/skin/webdev-statusbar.png") !important; 
+  list-style-image: url("chrome://mozapps/skin/webdeveloper/webdev-statusbar.png") !important; 
 }
 .webdeveloper-sidebar-button
 {
- list-style-image: url("chrome://browser/skin/webdev-sidebar.png") !important;
+ list-style-image: url("chrome://mozapps/skin/webdeveloper/webdev-sidebar.png") !important;
 }
