@@ -616,6 +616,7 @@ statusbarpanel#statusbar-display {
 
 #go-button > .button-box > .button-text {
   margin-left: 5px !important;
+	display: inline !important;
 }
 
 #go-button > .button-box {
