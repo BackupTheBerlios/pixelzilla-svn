@@ -1,3 +1,17 @@
+2004-09-16  Roman Joost	<roman@bromeco.de>
+
+	* firefox/browser/browser.css: fixed bug #002269
+	
+	* firefox/mozapps/extensions/extensions.css
+	* firefox/mozapps/extensions/extensionAbout.png
+	* firefox/mozapps/shared/extensionalert.png
+	* firefox/mozapps/shared/info.png
+	* firefox/mozapps/update/extensionalert.png
+	* firefox/mozapps/update/update.css: moved some icons to
+	shared to reuse them again
+	
+	* ChangeLog: renamed
+
 2004-09-12  Roman Joost	<roman@bromeco.de>
 
 	* firefox/install.rdf: new minor version

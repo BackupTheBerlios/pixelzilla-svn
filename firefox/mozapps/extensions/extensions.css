@@ -71,7 +71,7 @@
 }
 
 .extension-button[anonid="about-button"] {
-  background-image: url("chrome://mozapps/skin/extensions/extensionAbout.png");
+  background-image: url("chrome://mozapps/skin/shared/info.png");
 }
 
 .extension-button[anonid="homepage-button"] {
