@@ -181,23 +181,23 @@ menuitem.bookmark-item {
   padding: 9px 3px 7px 5px !important;
 }
 
-#nav-bar .toolbarbutton-menubutton-button,
-#nav-bar .toolbarbutton-menubutton-button:hover,
-#nav-bar .toolbarbutton-menubutton-button[buttonover="true"] {
+.toolbarbutton-menubutton-button,
+.toolbarbutton-menubutton-button:hover,
+.toolbarbutton-menubutton-button[buttonover="true"] {
   padding-left: 8px;
 }
 
-#nav-bar .toolbarbutton-menubutton-button:hover:active,
-#nav-bar .toolbarbutton-menubutton-button[open="true"],
-#nav-bar .toolbarbutton-menubutton-button[checked="true"] {
+.toolbarbutton-menubutton-button:hover:active,
+.toolbarbutton-menubutton-button[open="true"],
+.toolbarbutton-menubutton-button[checked="true"] {
   padding-left: 9px;
 }
 
 
-#nav-bar .toolbarbutton-menubutton-button[disabled="true"],
-#nav-bar .toolbarbutton-menubutton-button[disabled="true"]:hover,
-#nav-bar .toolbarbutton-menubutton-button[disabled="true"]:hover:active,
-#nav-bar .toolbarbutton-menubutton-button[disabled="true"][open="true"] {
+.toolbarbutton-menubutton-button[disabled="true"],
+.toolbarbutton-menubutton-button[disabled="true"]:hover,
+.toolbarbutton-menubutton-button[disabled="true"]:hover:active,
+.toolbarbutton-menubutton-button[disabled="true"][open="true"] {
   padding-left: 8px;
 }
 
