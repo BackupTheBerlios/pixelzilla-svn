@@ -1,3 +1,10 @@
+2004-07-22	Victor Nilsson <vervex@home.se>
+
+	* firefox/classic/skin/classic/browser/tab-new.png: Some small 
+	  changes according to the changes in the new tab icon in 
+	  toolbar.png
+
+
 2004-07-21	Victor Nilsson <vervex@home.se>
 
 	* firefox/classic/skin/classic/mozapps/extensions/about.css: 
@@ -8,11 +15,12 @@
 
 	* firefox/update.rdf
 
-2004-07-21	Roman Joost <roman@bromeco.de>
 
+2004-07-21	Roman Joost <roman@bromeco.de>
 
 	* firefox/classic/skin/classic/global/filepicker.css: removed icon
 	  for files
+
 
 2004-07-21	Roman Joost <roman@bromeco.de>
 
