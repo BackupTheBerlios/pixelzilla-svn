@@ -4,8 +4,8 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:extension:{68a34935-bad7-4224-890f-4b15d20598d7}">
-    <em:version>0.9.6</em:version>
-    <em:updateLink>http://mitglied.lycos.de/romanofski/pixelzilla/pixelzilla-unstable.jar</em:updateLink>
+    <em:version>0.9</em:version>
+    <em:updateLink>http://download.berlios.de/pixelzilla/pixelzilla-firefox-0.9.jar</em:updateLink>
   </Description>
 
 </RDF>

@@ -22,11 +22,11 @@
     <em:description>A theme based on pixel art.</em:description>
     <em:creator>Roman Joost</em:creator>
 		<em:contributor>Stephanie Warren, Victor Nilsson</em:contributor>
-    <em:homepageURL>http://www.romanofski.de</em:homepageURL>
+    <em:homepageURL>http://pixelzilla.berlios.de</em:homepageURL>
 
     <!-- Front End Integration Hooks (used by Theme Manager)-->
     <em:internalName>pixelzilla</em:internalName>
-		<em:updateURL>http://vervex.uni.cc/pixelzilla/update.rdf</em:updateURL>
+		<em:updateURL>http://pixelzilla.berlios.de/update.rdf</em:updateURL>
   </Description>
 
 </RDF>

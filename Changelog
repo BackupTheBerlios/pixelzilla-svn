@@ -1,3 +1,13 @@
+2004-07-21	Victor Nilsson <vervex@home.se>
+
+	* firefox/classic/skin/classic/mozapps/extensions/about.css: 
+	  Changed background to white
+
+	* firefox/classic/skin/classic/install.rdf: Changed homepageURL 
+	  and updateURL
+
+	* firefox/update.rdf
+
 2004-07-21	Roman Joost <roman@bromeco.de>
 
 

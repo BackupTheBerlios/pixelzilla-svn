@@ -1,5 +1,5 @@
 #clientBox {
-  background-color: #fafac6;
+  background-color: #fff;
   color: #000000;
 }
 
@@ -55,8 +55,8 @@
 } 
 
 #extensionCreatorLabel, #extensionContributors {
-  border-top: solid 1px #eae9be;
-  padding: 6px 0px 3px 0px;
+  border-top: solid 1px #ddd;
+  padding: 6px 0px 4px 0px;
   margin-top: 8px;
   font-weight: bold;
 }
