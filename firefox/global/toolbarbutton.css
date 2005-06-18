@@ -36,7 +36,6 @@ toolbarbutton {
   -moz-box-pack: center;
   margin: 0;
   border: 1px solid transparent;
-  padding: 3px;
   background-color: transparent;
   color: -moz-DialogText;
 }

@@ -16,7 +16,7 @@
     chrome:accessKey="P"
     chrome:description="A theme based on pixel art"
     chrome:name="pixelzilla"
-    chrome:image="preview.gif">
+    chrome:image="preview.png">
 
     <chrome:packages>
       <Seq about="urn:mozilla:skin:pixelzilla:packages">

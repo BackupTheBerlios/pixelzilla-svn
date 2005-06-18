@@ -1,3 +1,23 @@
+2005-06-19  Roman Joost	<roman@bromceo.de>
+
+	* firefox/global/toolbarbutton.css: small padding modifications
+	* firefox/install.rdf: new version
+	
+	* firefox/browser/pref
+	* firefox/browser/pref/pref.css
+	* firefox/browser/pref/Options.png
+	* firefox/browser/preferences
+	* firefox/browser/browser.css: renamed to be more common
+	with the classic skin
+	
+	* firefox/contents.rdf: use the png instead of the gif
+	* firefox/mozapps/update/icon32.png: not more needed
+	* firefox/mozapps/update/extensionalert.png: new icon for
+	informing the user if new updates are available
+	
+	* src/prefs.xcf: new icons for Firefox 2.0
+	* src/20x20-icons.xcf: new icons
+
 2005-03-24  Roman Joost	<roman@bromeco.de>
 
 	* preview.png
