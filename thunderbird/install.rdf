@@ -5,7 +5,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{29A52C08-1E91-4889-A6BF-C77F91D6A8F3}</em:id>
-    <em:version>1.0</em:version>
+    <em:version>0.7</em:version>
     
     <em:targetApplication>
       <Description>
@@ -19,7 +19,7 @@
     <em:name>PixelZilla</em:name>
     <em:description>A theme based on pixel art.</em:description>
     <em:creator>Roman Joost</em:creator>
-		<em:contributor>Stephanie Warrick, Victor Nilsson</em:contributor>
+		<em:contributor>Yury Soldak, Lars Joost</em:contributor>
     <em:homepageURL>http://pixelzilla.berlios.de</em:homepageURL>
 
     <!-- Front End Integration Hooks (used by Theme Manager)-->

@@ -41,7 +41,7 @@
 toolbar toolbarbutton {
 	-moz-box-orient: horizontal !important;
 	min-width: 16px;
-	list-style-image: url("chrome://help/skin/Toolbar.png");
+	list-style-image: url("chrome://browser/skin/toolbar.png");
 }
 
 toolbarbutton:not([disabled="true"]):hover,
@@ -54,16 +54,37 @@ menubutton:not([disabled="true"]):hover:active {
 /* Set the minimum sidebar width so the help contents aren't squeezed together.*/
 #help-sidebar { min-width: 15em; width: 20em; max-width: 25em; }
 
-#help-back-button, #help-forward-button[chromedir="rtl"] { -moz-image-region: rect(0px 24px 24px 0px); }
-#help-back-button:hover, #help-forward-button[chromedir="rtl"]:hover { -moz-image-region: rect(24px 24px 48px 0px); }
-#help-back-button[disabled="true"], #help-forward-button[disabled="true"][chromedir="rtl"] { -moz-image-region: rect(48px 24px 72px 0px); }
+#help-back-button, 
+#help-forward-button[chromedir="rtl"] {
+    -moz-image-region: rect(0px 20px 20px 0px); 
+}
 
-#help-forward-button, #help-back-button[chromedir="rtl"] { -moz-image-region: rect(0px 48px 24px 24px); }
-#help-forward-button:hover, #help-back-button[chromedir="rtl"]:hover { -moz-image-region: rect(24px 48px 48px 24px); }
-#help-forward-button[disabled="true"], #help-back-button[disabled="true"][chromedir="rtl"] { -moz-image-region: rect(48px 48px 72px 24px); }
+#help-back-button:hover, 
+#help-forward-button[chromedir="rtl"]:hover { 
+    -moz-image-region: rect(20px 20px 40px 0px); 
+}
 
-#help-home-button { -moz-image-region: rect(0px 72px 24px 48px); }
-#help-home-button:hover { -moz-image-region: rect(24px 72px 48px 48px); }
+#help-back-button[disabled="true"], 
+#help-forward-button[disabled="true"][chromedir="rtl"] { 
+    -moz-image-region: rect(40px 20px 60px 0px); 
+}
 
-#help-print-button { -moz-image-region: rect(0px 96px 24px 72px); }
-#help-print-button:hover { -moz-image-region: rect(24px 96px 48px 72px); }
+#help-forward-button, 
+#help-back-button[chromedir="rtl"] { 
+    -moz-image-region: rect(0px 40px 20px 20px); 
+}
+#help-forward-button:hover, 
+#help-back-button[chromedir="rtl"]:hover { 
+    -moz-image-region: rect(20px 40px 40px 20px); 
+}
+
+#help-forward-button[disabled="true"],
+#help-back-button[disabled="true"][chromedir="rtl"] { 
+    -moz-image-region: rect(40px 40px 60px 20px); 
+}
+
+#help-home-button { -moz-image-region: rect(0px 100px 20px 80px); }
+#help-home-button:hover { -moz-image-region: rect(20px 100px 40px 80px); }
+
+#help-print-button { -moz-image-region: rect(0px 180px 20px 160px); }
+#help-print-button:hover { -moz-image-region: rect(20px 180px 40px 160px); }

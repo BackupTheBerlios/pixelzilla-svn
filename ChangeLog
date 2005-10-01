@@ -1,3 +1,53 @@
+2005-10-01  Roman Joost	<roman@bromeco.de>
+
+	* firefox2/browser/Toolbar.png
+	* firefox2/mozapps/downloads/downloadCleanupDisabled.png
+	* firefox2/browser/Toolbar-small.png
+	* firefox2/help/Toolbar.png: deprecated and from the old
+	classic theme 
+
+	* firefox2/global/tabDragDrop/tabDragIndicator.png
+	* firefox2/global/throbber/Throbber-small.png
+	* firefox2/global/throbber/Throbber-small.gif
+	* firefox2/global/icons/notfound.png
+	* firefox2/global/icons/Print-preview.png
+	* firefox2/global/icons/find.png
+	* firefox2/install.rdf
+	* firefox2/browser/toolbar.png
+	* firefox2/browser/bookmarks/bookmarksManager.css
+	* firefox2/browser/bookmarks/Bookmarks-toolbar.png
+	* firefox2/browser/browser.css
+	* firefox2/preview.png
+	* firefox2/help/help.css
+	* firefox2/mozapps/extensions/actionbuttons.png
+	* firefox2/mozapps/extensions/themeGeneric.png
+	* firefox2/mozapps/extensions/extensions.css
+	* firefox2/mozapps/update/update.png
+	* firefox2/mozapps/update/extensionalert.png
+	* firefox2/mozapps/webdeveloper
+	* firefox2/mozapps/webdeveloper/webdev-toolbar.png
+	* firefox2/mozapps/webdeveloper/webdev-statusbar.png
+	* firefox2/mozapps/webdeveloper/webdev-sidebar.png
+	* firefox2/mozapps/webdeveloper/webdeveloper.css
+	* firefox2/mozapps/downloads/downloads.css
+	* firefox2/mozapps/downloads/downloadCleanup.png
+	* firefox2/mozapps/downloads/downloadIcon.png
+	* firefox2/mozapps/downloads/downloadsBG.png
+	* firefox2/mozapps/xpinstall/xpinstallItemGeneric.png: added
+	most of the old theme to the new one, which now supports a
+	recent firefox 1.5 build
+	
+	* thunderbird/install.rdf
+	* thunderbird/preview.png
+	* thunderbird/messenger/icons/message-mail-new-read.png
+	* thunderbird/messenger/icons/message-mail.png
+	* thunderbird/messenger/icons/message-mail-read.png
+	* thunderbird/messenger/icons/message-mail-forwarded-read.png
+	* thunderbird/messenger/icons/message-mail-forwarded.png
+	* thunderbird/messenger/icons/message-mail-replied.png
+	* thunderbird/messenger/icons/message-mail-replied-read.png: small
+	changes for the thunderbird theme
+	
 2005-08-26  Roman Joost	<roman@bromeco.de>
 
 	* firefox2

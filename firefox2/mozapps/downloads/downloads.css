@@ -22,6 +22,7 @@
 #cleanUpButton {
   margin: 0px;
   list-style-image: url("chrome://mozapps/skin/downloads/downloadCleanup.png");
+  -moz-image-region: rect(0px, 20px, 20px, 0px);
 }
 
 #cleanUpButton .button-icon {
@@ -32,7 +33,8 @@
 }
 
 #cleanUpButton[disabled="true"] {
-  list-style-image: url("chrome://mozapps/skin/downloads/downloadCleanupDisabled.png");
+  list-style-image: url("chrome://mozapps/skin/downloads/downloadCleanup.png");
+  -moz-image-region: rect(20px, 20px, 40px, 0px);
 }
 
 #commandBarSeparator {
