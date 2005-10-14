@@ -1,3 +1,24 @@
+2005-10-14  Roman Joost <roman@bromeco.de>
+
+        * firefox2/global/global.css: tried to fix the throbber
+
+        * firefox2/global/icons/warning-large.png: has now a
+        silverish look
+
+        * firefox2/global/icons/Question.png
+        * firefox2/global/icons/Error.png: updated according to
+        marks-large.xcf
+
+        * firefox2/install.rdf: bumped to next version
+        
+        * src/marks-large.xcf: added missing white stripes at the
+        bottom
+
+        * firefox2/browser/throbber16-single.gif
+        * firefox2/browser/throbber16-anim.gif
+        * firefox2/browser/browser.css: already in global/throbber,
+        so not needed anymore here.
+
 2005-10-01  Roman Joost	<roman@bromeco.de>
 
 	* firefox2/browser/Toolbar.png

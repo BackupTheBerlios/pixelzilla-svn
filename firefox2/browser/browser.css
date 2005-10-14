@@ -869,21 +869,21 @@ statusbarpanel#statusbar-display {
   padding: 0px !important;
   min-width: 0;
   background-color: transparent;
-  list-style-image: url("chrome://browser/skin/throbber16-single.gif");
+  list-style-image: url("chrome://browser/skin/Throbber-small.gif");
 }
 
 #navigator-throbber[busy="true"] {
-  list-style-image: url("chrome://global/skin/throbber/throbber16-anim.gif");
+  list-style-image: url("chrome://global/skin/throbber/Throbber-small.gif");
   opacity: 0.5;
 }
 
 toolbar[iconsize="small"] #navigator-throbber,
 toolbar[mode="text"] #navigator-throbber {
-  list-style-image: url("chrome://browser/skin/throbber16-single.gif");
+  list-style-image: url("chrome://browser/skin/Throbber-small.png");
 }
 toolbar[iconsize="small"] #navigator-throbber[busy="true"],
 toolbar[mode="text"] #navigator-throbber[busy="true"] {
-  list-style-image: url("chrome://global/skin/throbber/throbber16-anim.gif");
+  list-style-image: url("chrome://global/skin/throbber/Throbber-small.gif");
   opacity: 0.5;
 }
 
@@ -948,7 +948,7 @@ toolbar[mode="text"] > #window-controls > toolbarbutton > .toolbarbutton-text {
 }
 
 #sidebar-throbber[loading="true"] {
-  list-style-image: url("chrome://global/skin/throbber/throbber16-anim.gif");
+  list-style-image: url("chrome://global/skin/throbber/Throbber-small.gif");
   opacity: 0.5;
   -moz-margin-end: 4px;
 }
@@ -1003,6 +1003,6 @@ toolbar[mode="text"] > #window-controls > toolbarbutton > .toolbarbutton-text {
 }
 
 #checkForUpdates[loading="true"] {
-  list-style-image: url("chrome://global/skin/throbber/throbber16-anim.gif");
+  list-style-image: url("chrome://global/skin/throbber/Throbber-small.gif");
 }
 

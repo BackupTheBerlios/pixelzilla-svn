@@ -92,8 +92,8 @@ window.dialog {
 .alert-icon,
 .error-icon,
 .question-icon {
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
 }
 
 .message-icon {
