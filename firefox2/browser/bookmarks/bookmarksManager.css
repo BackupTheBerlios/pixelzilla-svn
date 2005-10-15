@@ -104,12 +104,9 @@ toolbarbutton#delete[disabled="true"] {
   -moz-image-region: rect(32px, 80px, 48px, 64px);
 }
 
-#bookmark-folders-view > .bookmarksTree {
-  margin: 0px;
-}
-
-treerow {
-  min-height: 21px;
+#bookmark-folders-view treechildren:-moz-tree-row,
+#bookmarks-view treechildren:-moz-tree-row {
+  height: 20px;
 }
 
 #bookmark-views-splitter {

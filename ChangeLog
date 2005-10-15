@@ -1,5 +1,11 @@
 2005-10-15  Roman Joost <roman@bromeco.de>
 
+        * firefox2/browser/bookmarks/bookmarksManager.css
+        * firefox2/browser/preferences/Options.png: fixed bugs:
+        #005325, #005326, #005327, #005328
+
+2005-10-15  Roman Joost <roman@bromeco.de>
+
         * firefox2/global/icons/Warning.png
         * firefox2/global/icons/warning.png: renamed to uppercase
         Warning, which should now be used by the theme
