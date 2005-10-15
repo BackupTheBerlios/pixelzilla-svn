@@ -1,5 +1,11 @@
 2005-10-15  Roman Joost <roman@bromeco.de>
 
+        * firefox2/global/icons/Warning.png
+        * firefox2/global/icons/warning.png: renamed to uppercase
+        Warning, which should now be used by the theme
+
+2005-10-15  Roman Joost <roman@bromeco.de>
+
         * firefox2/global/icons/warning.png: new warning icon
         * firefox2/browser/browser.css: fixed throbber handling, which
         should now also appear in not animated state
