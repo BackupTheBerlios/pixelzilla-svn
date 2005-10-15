@@ -869,7 +869,7 @@ statusbarpanel#statusbar-display {
   padding: 0px !important;
   min-width: 0;
   background-color: transparent;
-  list-style-image: url("chrome://browser/skin/Throbber-small.gif");
+  list-style-image: url("chrome://global/skin/throbber/Throbber-small.png");
 }
 
 #navigator-throbber[busy="true"] {
@@ -879,7 +879,7 @@ statusbarpanel#statusbar-display {
 
 toolbar[iconsize="small"] #navigator-throbber,
 toolbar[mode="text"] #navigator-throbber {
-  list-style-image: url("chrome://browser/skin/Throbber-small.png");
+  list-style-image: url("chrome://global/skin/throbber/Throbber-small.png");
 }
 toolbar[iconsize="small"] #navigator-throbber[busy="true"],
 toolbar[mode="text"] #navigator-throbber[busy="true"] {
