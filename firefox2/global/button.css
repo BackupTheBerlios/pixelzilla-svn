@@ -58,16 +58,11 @@ button {
 }
 
 .button-box {
-  -moz-appearance: button-focus;
   border: 1px solid transparent;
   padding-top: 1px;
   padding-bottom: 2px;
   -moz-padding-start: 3px;
   -moz-padding-end: 4px;
-}
-
-.button-icon {
-  margin-right: 2px;
 }
 
 .button-text {
@@ -97,13 +92,6 @@ button[default="true"] {
   -moz-border-left-colors: ThreeDDarkShadow ThreeDHighlight ThreeDLightShadow;
 }
 
-/* .......... hover state .......... */
-
-button:hover {
-  color: -moz-buttonhovertext;
-  background-color: -moz-buttonhoverface;
-}
-
 /* .......... active/open/checked state .......... */
 
 button:hover:active,
@@ -113,7 +101,6 @@ button[checked="true"] {
   -moz-border-right-colors: ThreeDDarkShadow ThreeDShadow transparent;
   -moz-border-bottom-colors: ThreeDDarkShadow ThreeDShadow transparent;
   -moz-border-left-colors: ThreeDDarkShadow ThreeDShadow transparent;
-  color: ButtonText;
 }
 
 button:hover:active > .button-box,
@@ -127,8 +114,7 @@ button[checked="true"] > .button-box {
 
 /* .......... disabled state .......... */
 
-button[disabled="true"],
-button[disabled="true"]:hover:active {
+button[disabled="true"] {
   -moz-border-top-colors: transparent ThreeDHighlight ThreeDLightShadow !important;
   -moz-border-right-colors: transparent ThreeDDarkShadow ThreeDShadow !important;
   -moz-border-bottom-colors: transparent ThreeDDarkShadow ThreeDShadow !important;
@@ -196,90 +182,4 @@ button[type="disclosure"][open="true"] {
   list-style-image: url("chrome://global/skin/tree/twisty-open.png"); 
 }
 
-/*
- * GNOME Stock Icon Styles
- */
 
-button[icon="accept"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-ok?size=button");
-}
-
-button[icon="cancel"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-cancel?size=button");
-}
-
-button[icon="help"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-help?size=button");
-}
-
-button[icon="open"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-open?size=button");
-}
-
-button[icon="save"] .button-icon {
-  list-style-image: url(moz-icon://stock/gtk-save?size=button);
-}
-
-button[icon="find"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-find?size=button");
-}
-
-button[icon="clear"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-clear?size=button");
-}
-
-button[icon="yes"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-yes?size=button");
-}
-
-button[icon="no"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-no?size=button");
-}
-
-button[icon="apply"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-apply?size=button");
-}
-
-button[icon="close"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-close?size=button");
-}
-
-button[icon="print"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-print?size=button");
-}
-
-button[icon="add"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-add?size=button");
-}
-
-button[icon="remove"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-remove?size=button");
-}
-
-button[icon="refresh"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-refresh?size=button");
-}
-
-button[icon="go-forward"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-go-forward?size=button");
-}
-
-button[icon="go-back"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-go-back?size=button");
-}
-
-button[icon="properties"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-properties?size=button");
-}
-
-button[icon="select-font"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-select-font?size=button");
-}
-
-button[icon="select-color"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-color-picker?size=button");
-}
-
-button[icon="network"] .button-icon {
-  list-style-image: url("moz-icon://stock/gtk-network?size=button");
-}

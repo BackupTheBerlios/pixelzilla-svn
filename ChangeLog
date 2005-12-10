@@ -1,3 +1,60 @@
+2005-12-10  Roman Joost <roman@bromeco.de>
+
+        * firefox2/global/spinbuttons.css
+        * firefox2/global/toolbarbutton.css
+        * firefox2/global/dialog.css
+        * firefox2/global/checkbox/cbox-check.gif
+        * firefox2/global/netError.css
+        * firefox2/global/menulist.css
+        * firefox2/global/wizard.css
+        * firefox2/global/progressmeter.css
+        * firefox2/global/preferences.css
+        * firefox2/global/autocomplete.css
+        * firefox2/global/toolbar.css
+        * firefox2/global/popup.css
+        * firefox2/global/config.css
+        * firefox2/global/findBar.css
+        * firefox2/global/splitter.css
+        * firefox2/global/scrollbox.css
+        * firefox2/global/button.css
+        * firefox2/global/browser.css
+        * firefox2/global/listbox.css
+        * firefox2/global/checkbox.css
+        * firefox2/global/richlistbox.css
+        * firefox2/global/arrow.css
+        * firefox2/global/textbox.css
+        * firefox2/global/radio.css
+        * firefox2/global/printPreview.css
+        * firefox2/global/xulscrollbars.css
+        * firefox2/global/tree.css
+        * firefox2/global/global.css
+        * firefox2/global/menu.css
+        * firefox2/global/groupbox.css
+        * firefox2/global/customizeToolbar.css
+        * firefox2/global/expander.css
+        * firefox2/global/printPageSetup.css
+        * firefox2/global/formatting.css
+        * firefox2/global/colorpicker.css
+        * firefox2/global/nativescrollbars.css
+        * firefox2/global/linkTree.css
+        * firefox2/global/filepicker.css
+        * firefox2/global/tabbox.css
+        * firefox2/global/plugins.css: copied from Firefox 1.5
+        classic theme, which fixes the weird Microsoft Windows errors
+
+        * firefox2/global/icons/warning-large.png
+        * firefox2/global/icons/Portrait.png
+        * firefox2/global/icons/Warning.png
+        * firefox2/global/icons/Question.png
+        * firefox2/global/icons/folder-item.png
+        * firefox2/global/icons/Error.png
+        * firefox2/global/icons/Landscape.png: made them more
+        blueish
+
+        * firefox2/install.rdf: bumped to 0.9.9
+
+        * src/20x20-icons.xcf: updated icons
+
 2005-10-15  Roman Joost <roman@bromeco.de>
 
         * firefox2/browser/bookmarks/bookmarksManager.css

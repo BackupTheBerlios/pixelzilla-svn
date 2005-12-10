@@ -21,7 +21,6 @@
  *
  * Contributor(s):
  *   Joe Hewitt (hewitt@netscape.com)
- *   Brian Ryner <bryner@brianryner.com>
  *
  * Alternatively, the contents of this file may be used under the terms of
  * either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -49,18 +48,6 @@
 textbox {
   cursor: default;
   padding: 0;
-  -moz-appearance: none;
-  border: none !important;
-}
-
-.autocomplete-textbox-container {
-  -moz-appearance: menulist-textfield;
-  -moz-box-align: center;
-  border: 2px solid;
-  -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow;
-  -moz-border-right-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow;
-  -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow;
 }
 
 /* Used by autocomplete widgets that don't have an icon. Gross. -dwh */
@@ -69,6 +56,10 @@ textbox.padded {
   padding-bottom: 1px;
   -moz-padding-start: 2px;
   -moz-padding-end: 0px;
+}
+
+.autocomplete-textbox-container {
+  -moz-box-align: center;
 }
 
 .textbox-input-box {
@@ -127,7 +118,7 @@ popup[type="autocomplete"],
 .autocomplete-tree {
   -moz-appearance: none !important;
   border: none !important;
-  background-color: -moz-field !important;
+  background-color: transparent !important;
 }
 
 .autocomplete-treecol {
@@ -170,21 +161,3 @@ toolbarpaletteitem > toolbaritem > textbox > hbox > hbox > html|*.textbox-input 
 toolbarpaletteitem > toolbaritem > * > textbox > hbox > hbox > html|*.textbox-input {
   visibility: hidden;
 }
-
-/* ::::: browser urlbar styles :::::: */
-
-#urlbar > .autocomplete-textbox-container {
-  -moz-binding: url(chrome://browser/skin/browser.xml#autocomplete-security-wrapper);
-}
-
-#autocomplete-security-wrapper {
-  -moz-box-align: center;
-}
-
-#urlbar[level="high"] #autocomplete-security-wrapper,
-#urlbar[level="low"] #autocomplete-security-wrapper,
-#urlbar[level="broken"] #autocomplete-security-wrapper {
-  background-color: #F5F6BE; /* #F7F898; */
-  color: #000000;
-}
-

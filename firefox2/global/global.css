@@ -48,12 +48,8 @@
 
 /* ::::: XBL bindings ::::: */
 
-checkbox {
-  -moz-binding: url("chrome://global/content/bindings/checkbox.xml#checkbox-with-spacing");
-}
-
 radio {
-  -moz-binding: url("chrome://global/skin/globalBindings.xml#radio-with-spacing");
+  -moz-binding: url("chrome://global/skin/globalBindings.xml#radio");
 }
 
 menulist > menupopup,
@@ -63,6 +59,10 @@ menulist > menupopup,
 
 .menulist-compact {
   -moz-binding: url("chrome://global/content/bindings/menulist.xml#menulist-compact");
+}
+
+progressmeter[mode="undetermined"] {
+  -moz-binding: url("chrome://global/content/bindings/progressmeter.xml#progressmeter-undetermined");
 }
 
 /* ::::: root elements ::::: */
@@ -79,7 +79,10 @@ prefwindow {
 }
 
 window.dialog {
-  padding: 8px 10px 10px 8px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  -moz-padding-start: 8px;
+  -moz-padding-end: 10px;
 }
 
 [wait-cursor] {
@@ -165,9 +168,9 @@ resizer[dir="bottomright"] {
 /* XXXBlake yeah, shoot me -- these don't belong here.  I'll move them later. */
 
 sidebarheader {
-  -moz-appearance: toolbox;
   height: 25px;
   background-color: -moz-Dialog;
+  -moz-appearance: toolbox;
   border-bottom: 1px solid ThreeDShadow;
   border-top: 1px solid ThreeDHighlight;
 }

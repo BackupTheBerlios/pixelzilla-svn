@@ -56,7 +56,7 @@ toolbarbutton {
 }
 
 .toolbarbutton-icon {
-  -moz-margin-end: 2px;
+  -moz-margin-end: 5px;
 }
 
 .toolbarbutton-text {
@@ -80,8 +80,6 @@ toolbarbutton:focus
 toolbarbutton:hover,
 toolbarbutton[buttonover="true"] {
   border-color: ThreeDHighlight ThreeDShadow ThreeDShadow ThreeDHighlight;
-  color: -moz-buttonhovertext;
-  background-color: -moz-buttonhoverface;
 }
 
 toolbarbutton:hover:active,
@@ -91,7 +89,6 @@ toolbarbutton[open="true"] {
   padding-bottom: 2px;
   -moz-padding-start: 4px;
   -moz-padding-end: 2px;
-  color: ButtonText;
 }
 
 toolbarbutton[disabled="true"],
@@ -100,7 +97,7 @@ toolbarbutton[disabled="true"]:hover:active,
 toolbarbutton[disabled="true"][open="true"] {
   border-color: transparent;
   padding: 3px;
-  color: GrayText;
+  color: GrayText !important;
 }
 
 /* ..... checked state ..... */
@@ -112,7 +109,7 @@ toolbarbutton[checked="true"] {
   -moz-padding-start: 4px !important;
   -moz-padding-end: 2px !important;
   background-image: url("chrome://global/skin/toolbar/Lighten.png");
-  color: ButtonText !important;
+  color: ButtonText;
 }
 
 /* ::::: toolbarbutton menu ::::: */
@@ -130,7 +127,6 @@ toolbarbutton[checked="true"] {
 
 toolbarbutton[type="menu-button"] {
   -moz-box-align: stretch;
-  -moz-appearance: dualbutton;
   -moz-box-orient: horizontal !important;
 }
 
@@ -158,7 +154,6 @@ toolbarbutton[type="menu-button"][disabled="true"]:hover:active {
   padding: 3px;
   list-style-image: url("chrome://global/skin/arrow/arrow-dn.gif");
   -moz-image-region: auto; /* cut off inheritance */
-  -moz-appearance: dualbutton-dropdown;
 }
 
 .toolbarbutton-menubutton-dropmarker[disabled="true"] {
