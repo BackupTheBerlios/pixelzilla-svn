@@ -1,3 +1,16 @@
+2006-02-02  Roman Joost	<roman@bromeco.de>
+
+	* firefox2/global/browser.css: added tab-close image CSS def
+
+	* firefox2/global/icons/close.png
+	* firefox2/global/icons/Error.png: converted to indexed
+
+	* firefox2/install.rdf: bumped to version 0.9.10, now
+	installable for firefox up to 1.6a
+
+	* firefox2/browser/bookmarks/bookmarksManager.css: fix for new
+	bookmark button
+
 2005-12-10  Roman Joost <roman@bromeco.de>
 
         * firefox2/global/spinbuttons.css

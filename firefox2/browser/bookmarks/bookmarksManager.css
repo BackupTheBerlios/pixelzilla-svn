@@ -16,7 +16,7 @@ toolbarbutton#newbookmark {
 }
 
 toolbarbutton#newbookmark:hover {
-  -moz-image-region: rect(16px 96px 32px 90px);
+  -moz-image-region: rect(16px 96px 32px 80px);
 }
 
 toolbarbutton#newbookmark[disabled="true"] {
