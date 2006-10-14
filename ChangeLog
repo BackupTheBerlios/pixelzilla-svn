@@ -1,3 +1,10 @@
+2006-10-14  Roman Joost  <roman@bromeco.de>
+
+	* firefox2/install.rdf: updated for Firefox 2 compatible theme
+
+	* firefox2/preview.gif: removed, because it isn't in use anyways
+
+
 2006-02-02  Roman Joost	<roman@bromeco.de>
 
 	* firefox2/global/browser.css: added tab-close image CSS def
